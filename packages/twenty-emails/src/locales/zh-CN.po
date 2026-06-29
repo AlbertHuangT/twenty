@@ -91,7 +91,7 @@ msgstr "接受邀请"
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm your new email address"
-msgstr ""
+msgstr "确认您的新邮箱地址"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
@@ -101,7 +101,7 @@ msgstr "确认您的邮箱地址"
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm new email"
-msgstr ""
+msgstr "确认新邮箱"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx

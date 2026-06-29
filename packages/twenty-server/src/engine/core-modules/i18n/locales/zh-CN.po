@@ -22,25 +22,25 @@ msgstr ""
 #. placeholder {0}: flatField.label
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "\"{0}\" is a one-to-many relation and can't be indexed directly. Index the foreign-key side instead."
-msgstr ""
+msgstr "“{0}” 是一对多关系,无法直接建立索引。请改为对外键一侧建立索引。"
 
 #. js-lingui-id: bxSgKk
 #. placeholder {0}: flatField.label
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "\"{0}\" is not a composite field — remove the sub-field selection."
-msgstr ""
+msgstr "“{0}” 不是组合字段——请移除子字段选择。"
 
 #. js-lingui-id: 6RLdgl
 #. placeholder {0}: input.subFieldName
 #. placeholder {1}: flatField.label
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "\"{0}\" is not a valid sub-field of \"{1}\"."
-msgstr ""
+msgstr "“{0}” 不是 “{1}” 的有效子字段。"
 
 #. js-lingui-id: SsRDX3
 #: src/engine/core-modules/user/utils/assert-workspace-member-update-non-custom-fields.util.ts
 msgid "\"{payloadKey}\" is not a valid workspace member field."
-msgstr ""
+msgstr "“{payloadKey}” 不是有效的工作区成员字段。"
 
 #. js-lingui-id: Q0ISF1
 #: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
@@ -61,7 +61,7 @@ msgstr "{fieldType} 字段不能设定默认值。"
 #. js-lingui-id: VEmyIu
 #: src/engine/metadata-modules/page-layout-widget/utils/validate-chart-configuration-field-references.util.ts
 msgid "{fullMessage}"
-msgstr ""
+msgstr "{fullMessage}"
 
 #. js-lingui-id: iEZavm
 #: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
@@ -71,12 +71,12 @@ msgstr "域名“{domainName}”找到{hostnameCount}个主机名。预期1"
 #. js-lingui-id: 0eYXBl
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "12HRS"
-msgstr ""
+msgstr "12 小时"
 
 #. js-lingui-id: iMVAB9
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "24HRS"
-msgstr ""
+msgstr "24 小时"
 
 #. js-lingui-id: kZR6+h
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -86,17 +86,17 @@ msgstr "公司"
 #. js-lingui-id: JYntnV
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "A connection provider with this name already exists for this application"
-msgstr ""
+msgstr "此应用中已存在同名的连接提供方"
 
 #. js-lingui-id: jzhZvB
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "A connection provider with this name already exists for this application."
-msgstr ""
+msgstr "此应用中已存在同名的连接提供方。"
 
 #. js-lingui-id: cOSBjW
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A dashboard"
-msgstr ""
+msgstr "一个仪表盘"
 
 #. js-lingui-id: ixdsnM
 #: src/engine/core-modules/dns-manager/exceptions/dns-manager.exception.ts
@@ -126,7 +126,7 @@ msgstr "已存在同名函数。"
 #. js-lingui-id: 6yZjO1
 #: src/engine/core-modules/application/application.exception.ts
 msgid "A higher version of this application is already installed. Downgrading is not allowed."
-msgstr ""
+msgstr "此应用已安装了更高的版本。不允许降级。"
 
 #. js-lingui-id: Nh/ZZe
 #: src/engine/metadata-modules/object-metadata/object-metadata.exception.ts
@@ -141,22 +141,22 @@ msgstr "访问日历时发生网络错误。"
 #. js-lingui-id: bufuBA
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A note"
-msgstr ""
+msgstr "一条备注"
 
 #. js-lingui-id: 6kUkZW
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A note target"
-msgstr ""
+msgstr "备注目标"
 
 #. js-lingui-id: HC18ok
 #: src/engine/core-modules/file-storage/utils/validate-path-segments-safety.util.ts
 msgid "A path segment contains invalid characters. Only alphanumeric, dots, dashes and underscores are allowed"
-msgstr ""
+msgstr "路径片段包含无效字符。仅允许字母数字、点、短横线和下划线"
 
 #. js-lingui-id: 5VSRdB
 #: src/engine/core-modules/file-storage/utils/validate-path-segments-safety.util.ts
 msgid "A path segment exceeds the maximum length of 255 characters"
-msgstr ""
+msgstr "路径片段超过了 255 个字符的最大长度"
 
 #. js-lingui-id: W6LTzL
 #: src/engine/core-modules/billing/billing.exception.ts
@@ -167,7 +167,7 @@ msgstr "发生支付处理错误。"
 #. js-lingui-id: Io42ej
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A person"
-msgstr ""
+msgstr "一个人员"
 
 #. js-lingui-id: sieBE7
 #: src/engine/twenty-orm/exceptions/twenty-orm.exception.ts
@@ -218,12 +218,12 @@ msgstr "缺少系统字段。"
 #. js-lingui-id: mkFXEH
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A task"
-msgstr ""
+msgstr "一项任务"
 
 #. js-lingui-id: hk2NzW
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A task target"
-msgstr ""
+msgstr "任务目标"
 
 #. js-lingui-id: c1qcYo
 #: src/modules/calendar/calendar-event-import-manager/drivers/exceptions/calendar-event-import-driver.exception.ts
@@ -283,32 +283,32 @@ msgstr "已存在具有此配置的 Webhook。"
 #. js-lingui-id: ZIN9Ga
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A workflow"
-msgstr ""
+msgstr "一个工作流"
 
 #. js-lingui-id: YwBCp8
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A workflow automated trigger"
-msgstr ""
+msgstr "工作流自动触发器"
 
 #. js-lingui-id: 1+xDbI
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A workflow run"
-msgstr ""
+msgstr "一次工作流运行"
 
 #. js-lingui-id: N0g7rp
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A workflow version"
-msgstr ""
+msgstr "一个工作流版本"
 
 #. js-lingui-id: HpZ/I5
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "A workspace member"
-msgstr ""
+msgstr "一名工作区成员"
 
 #. js-lingui-id: bzMKg7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Accepted"
-msgstr ""
+msgstr "已接受"
 
 #. js-lingui-id: qjrxU8
 #: src/engine/core-modules/file-storage/interfaces/file-storage-exception.ts
@@ -323,17 +323,17 @@ msgstr "未找到访问令牌。"
 #. js-lingui-id: pd81Qb
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Account Owner"
-msgstr ""
+msgstr "客户负责人"
 
 #. js-lingui-id: loqL/f
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Account owner for companies"
-msgstr ""
+msgstr "公司的客户负责人"
 
 #. js-lingui-id: HZosRi
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Account Owner For Companies"
-msgstr ""
+msgstr "公司的客户负责人"
 
 #. js-lingui-id: 48AxkT
 #: src/engine/workspace-manager/workspace-cleaner/services/cleaner.workspace-service.ts
@@ -354,22 +354,22 @@ msgstr "需要操作以设置密码"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Active"
-msgstr ""
+msgstr "活跃"
 
 #. js-lingui-id: ffpvxH
 #: src/engine/core-modules/user/utils/assert-workspace-member-update-non-custom-fields.util.ts
 msgid "Add at least one field to update."
-msgstr ""
+msgstr "请至少添加一个要更新的字段。"
 
 #. js-lingui-id: Du6bPw
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #. js-lingui-id: Knl3c9
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Address of the company"
-msgstr ""
+msgstr "公司的地址"
 
 #. js-lingui-id: VmatbA
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -422,7 +422,7 @@ msgstr "图表小部件 \"{widgetTitle}\" 需要聚合操作"
 #. js-lingui-id: W58PBh
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Aggregated / filtered event to be displayed on the timeline"
-msgstr ""
+msgstr "在时间线上显示的聚合/筛选事件"
 
 #. js-lingui-id: WG8+0x
 #: src/modules/workflow/common/exceptions/workflow-version-step.exception.ts
@@ -432,7 +432,7 @@ msgstr "AI 代理步骤执行失败。"
 #. js-lingui-id: hehnjM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Amount"
-msgstr ""
+msgstr "金额"
 
 #. js-lingui-id: pZEIPj
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-name-uniqueness.util.ts
@@ -447,7 +447,7 @@ msgstr "带有此名称的代理已存在."
 #. js-lingui-id: MjyFvC
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "An attachment"
-msgstr ""
+msgstr "一个附件"
 
 #. js-lingui-id: eW83iC
 #: src/modules/messaging/message-import-manager/drivers/microsoft/exceptions/microsoft-import-driver.exception.ts
@@ -462,7 +462,7 @@ msgstr "工作区迁移过程中发生错误。"
 #. js-lingui-id: X3mSup
 #: src/engine/core-modules/messaging-webhooks/messaging-webhook.exception.ts
 msgid "An error occurred while processing the webhook."
-msgstr ""
+msgstr "处理 webhook 时发生错误。"
 
 #. js-lingui-id: S7yZl9
 #: src/engine/core-modules/two-factor-authentication/two-factor-authentication.exception.ts
@@ -489,7 +489,7 @@ msgstr "索引中必须至少包含一个字段"
 #. js-lingui-id: KvWKJI
 #: src/engine/core-modules/secret-encryption/exceptions/secret-encryption.exception.ts
 msgid "An internal error occurred while handling encrypted data."
-msgstr ""
+msgstr "处理加密数据时发生内部错误。"
 
 #. js-lingui-id: SOp/Vw
 #: src/engine/core-modules/workspace-invitation/workspace-invitation.exception.ts
@@ -504,7 +504,7 @@ msgstr "带有此名称的对象已存在."
 #. js-lingui-id: bZq8rL
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "An opportunity"
-msgstr ""
+msgstr "一个商机"
 
 #. js-lingui-id: Tstlpf
 #: src/engine/core-modules/billing/billing.exception.ts
@@ -541,12 +541,12 @@ msgstr "发生未知的日历错误。"
 #. js-lingui-id: JKWicb
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Annual Recurring Revenue: The actual or estimated annual revenue of the company"
-msgstr ""
+msgstr "年度经常性收入:公司实际或预估的年收入"
 
 #. js-lingui-id: 4XvK/4
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Another application in this workspace has already registered a permission flag with this key."
-msgstr ""
+msgstr "此工作区中的另一个应用已使用此键注册了权限标志。"
 
 #. js-lingui-id: fRWsMD
 #: src/engine/metadata-modules/ai/ai.exception.ts
@@ -571,7 +571,7 @@ msgstr "未找到 API 密钥角色。"
 #. js-lingui-id: 0UMxlw
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Apostrophe and dot"
-msgstr ""
+msgstr "撇号与点"
 
 #. js-lingui-id: ue106l
 #: src/engine/core-modules/application/application.exception.ts
@@ -581,7 +581,7 @@ msgstr "此工作区未安装该应用。请先安装它。"
 #. js-lingui-id: t77Ey9
 #: src/engine/core-modules/public-domain/public-domain.exception.ts
 msgid "Application not found in this workspace."
-msgstr ""
+msgstr "在此工作区中未找到该应用。"
 
 #. js-lingui-id: ltvmAF
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-runner/exceptions/workspace-migration-runner.exception.ts
@@ -596,12 +596,12 @@ msgstr "未找到应用程序。"
 #. js-lingui-id: kuNcoR
 #: src/engine/core-modules/application/application.exception.ts
 msgid "Application post-install logic function failed."
-msgstr ""
+msgstr "应用安装后逻辑函数执行失败。"
 
 #. js-lingui-id: UTxpa1
 #: src/engine/core-modules/application/application.exception.ts
 msgid "Application pre-install logic function failed."
-msgstr ""
+msgstr "应用安装前逻辑函数执行失败。"
 
 #. js-lingui-id: DE/icK
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
@@ -622,13 +622,13 @@ msgstr "应用程序升级失败。"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 msgid "Application variable key is required"
-msgstr ""
+msgstr "应用变量键为必填项"
 
 #. js-lingui-id: K+YEBR
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 msgid "Application variable key must be unique"
-msgstr ""
+msgstr "应用变量键必须唯一"
 
 #. js-lingui-id: e6tjp1
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
@@ -636,7 +636,7 @@ msgstr ""
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-application-variable-validator.service.ts
 msgid "Application variable not found"
-msgstr ""
+msgstr "未找到应用变量"
 
 #. js-lingui-id: 9qtW5o
 #: src/engine/core-modules/application/application-variable/application-variable.exception.ts
@@ -672,67 +672,67 @@ msgstr "四月"
 #. js-lingui-id: B495Gs
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Archive"
-msgstr ""
+msgstr "归档"
 
 #. js-lingui-id: TdfEV7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Archived"
-msgstr ""
+msgstr "已归档"
 
 #. js-lingui-id: 3EiOLz
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "ARR"
-msgstr ""
+msgstr "ARR"
 
 #. js-lingui-id: Ek7xGj
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Assigned tasks"
-msgstr ""
+msgstr "分配的任务"
 
 #. js-lingui-id: ojKCLU
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Assignee"
-msgstr ""
+msgstr "负责人"
 
 #. js-lingui-id: Max2GU
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Associated User Id"
-msgstr ""
+msgstr "关联的用户 ID"
 
 #. js-lingui-id: IlaQdj
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
 msgid "At least one relation is required"
-msgstr ""
+msgstr "至少需要一个关系"
 
 #. js-lingui-id: UY1vmE
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Attachment"
-msgstr ""
+msgstr "附件"
 
 #. js-lingui-id: btKdFz
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment file"
-msgstr ""
+msgstr "附件文件"
 
 #. js-lingui-id: u3pBxa
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment file category"
-msgstr ""
+msgstr "附件文件类别"
 
 #. js-lingui-id: gfGYcl
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment full path"
-msgstr ""
+msgstr "附件完整路径"
 
 #. js-lingui-id: wjocwa
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment name"
-msgstr ""
+msgstr "附件名称"
 
 #. js-lingui-id: F990we
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment record position"
-msgstr ""
+msgstr "附件记录位置"
 
 #. js-lingui-id: RWMEBF
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
@@ -743,7 +743,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Attachment target"
-msgstr ""
+msgstr "附件目标"
 
 #. js-lingui-id: w/Sphq
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -755,37 +755,37 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Attachments"
-msgstr ""
+msgstr "附件"
 
 #. js-lingui-id: iVnA89
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Attachments linked to the company"
-msgstr ""
+msgstr "关联到该公司的附件"
 
 #. js-lingui-id: MuTXtT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Attachments linked to the contact."
-msgstr ""
+msgstr "关联到该联系人的附件。"
 
 #. js-lingui-id: 2AEUIb
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Attachments linked to the dashboard"
-msgstr ""
+msgstr "关联到该仪表盘的附件"
 
 #. js-lingui-id: kw0mLu
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Attachments linked to the opportunity"
-msgstr ""
+msgstr "关联到该商机的附件"
 
 #. js-lingui-id: 83l3Yd
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Attachments linked to the workflow"
-msgstr ""
+msgstr "关联到该工作流的附件"
 
 #. js-lingui-id: /rTz0M
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Audio"
-msgstr ""
+msgstr "音频"
 
 #. js-lingui-id: aepsXP
 #: src/engine/core-modules/event-logs/event-logs.exception.ts
@@ -826,32 +826,32 @@ msgstr "需要身份验证。"
 #. js-lingui-id: cvSznK
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "Automated Trigger Type"
-msgstr ""
+msgstr "自动触发器类型"
 
 #. js-lingui-id: 2mtBXs
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Automated Triggers"
-msgstr ""
+msgstr "自动触发器"
 
 #. js-lingui-id: kfcRb0
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Avatar"
-msgstr ""
+msgstr "头像"
 
 #. js-lingui-id: qDKGpf
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Avatar File"
-msgstr ""
+msgstr "头像文件"
 
 #. js-lingui-id: S/mJUR
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Avatar Url"
-msgstr ""
+msgstr "头像 URL"
 
 #. js-lingui-id: /xLNEx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Bcc"
-msgstr ""
+msgstr "密送"
 
 #. js-lingui-id: rkIGWa
 #: src/engine/core-modules/billing/billing.exception.ts
@@ -888,7 +888,7 @@ msgstr "未找到计费订阅。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Blocklist"
-msgstr ""
+msgstr "黑名单"
 
 #. js-lingui-id: 0j1d4L
 #: src/modules/blocklist/blocklist-validation-manager/services/blocklist-validation.service.ts
@@ -909,23 +909,23 @@ msgstr "未找到阻止列表项。"
 #. js-lingui-id: w4auss
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 msgid "Blocklist record position"
-msgstr ""
+msgstr "黑名单记录位置"
 
 #. js-lingui-id: Tv2hxv
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Blocklisted handles"
-msgstr ""
+msgstr "已加入黑名单的地址"
 
 #. js-lingui-id: L5JhJe
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Blocklists"
-msgstr ""
+msgstr "黑名单"
 
 #. js-lingui-id: bGQplw
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Body"
-msgstr ""
+msgstr "正文"
 
 #. js-lingui-id: Ara8xP
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-standalone-rich-text-body.util.ts
@@ -951,13 +951,13 @@ msgstr "小部件 \"{widgetTitle}\" 的正文必须是对象"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-front-component-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-front-component-validator.service.ts
 msgid "Built component path is invalid"
-msgstr ""
+msgstr "构建后的组件路径无效"
 
 #. js-lingui-id: OeM+/V
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 msgid "Built handler path is invalid"
-msgstr ""
+msgstr "构建后的处理函数路径无效"
 
 #. js-lingui-id: HOWEGX
 #: src/modules/blocklist/query-hooks/blocklist-update-many.pre-query.hook.ts
@@ -967,12 +967,12 @@ msgstr "不允许批量更新阻止列表条目。"
 #. js-lingui-id: 9N+p+g
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Business"
-msgstr ""
+msgstr "商务"
 
 #. js-lingui-id: 8mVqF7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Cached record name"
-msgstr ""
+msgstr "缓存的记录名称"
 
 #. js-lingui-id: AjVXBS
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
@@ -983,12 +983,12 @@ msgstr "日历"
 #. js-lingui-id: jfNQ0m
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Calendar Channel Event Association"
-msgstr ""
+msgstr "日历频道事件关联"
 
 #. js-lingui-id: 5ePwMy
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 msgid "Calendar channel event association record position"
-msgstr ""
+msgstr "日历频道事件关联记录位置"
 
 #. js-lingui-id: kYNT3F
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -996,7 +996,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Calendar Channel Event Associations"
-msgstr ""
+msgstr "日历频道事件关联"
 
 #. js-lingui-id: bQS4UN
 #: src/modules/calendar/calendar-event-import-manager/drivers/exceptions/calendar-event-import-driver.exception.ts
@@ -1006,12 +1006,12 @@ msgstr "日历通道配置错误。"
 #. js-lingui-id: 3J2x1Q
 #: src/engine/metadata-modules/calendar-channel/calendar-channel.exception.ts
 msgid "Calendar channel not found."
-msgstr ""
+msgstr "未找到日历频道。"
 
 #. js-lingui-id: bRk+FR
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Calendar event"
-msgstr ""
+msgstr "日历事件"
 
 #. js-lingui-id: 1t3DGy
 #: src/modules/calendar/calendar-event-import-manager/drivers/exceptions/calendar-event-import-driver.exception.ts
@@ -1021,18 +1021,18 @@ msgstr "未找到日历事件。"
 #. js-lingui-id: N2kMfO
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Calendar event participant"
-msgstr ""
+msgstr "日历事件参与者"
 
 #. js-lingui-id: B/QIsg
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Calendar event participant record position"
-msgstr ""
+msgstr "日历事件参与者记录位置"
 
 #. js-lingui-id: AWDqkQ
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Calendar event participants"
-msgstr ""
+msgstr "日历事件参与者"
 
 #. js-lingui-id: ZI2UyM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -1040,18 +1040,18 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Calendar Event Participants"
-msgstr ""
+msgstr "日历事件参与者"
 
 #. js-lingui-id: u0R1Ba
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Calendar event record position"
-msgstr ""
+msgstr "日历事件记录位置"
 
 #. js-lingui-id: X9A2xC
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Calendar events"
-msgstr ""
+msgstr "日历事件"
 
 #. js-lingui-id: GtrALl
 #: src/modules/calendar/calendar-event-import-manager/exceptions/calendar-event-import.exception.ts
@@ -1123,7 +1123,7 @@ msgstr "无法删除标准代理"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Cannot delete standard permission flag definition"
-msgstr ""
+msgstr "无法删除标准权限标志定义"
 
 #. js-lingui-id: EN2+6i
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-skill-validator.service.ts
@@ -1145,12 +1145,12 @@ msgstr "无法删除此对象的唯一视图"
 #. js-lingui-id: aqua7x
 #: src/engine/metadata-modules/role/role.service.ts
 msgid "Cannot delete this role: it is still assigned to one or more agents, and the workspace default role cannot be assigned to agents. Please reassign these agents to another role first."
-msgstr ""
+msgstr "无法删除此角色:它仍被分配给一个或多个智能体,而工作区默认角色无法分配给智能体。请先将这些智能体重新分配到其他角色。"
 
 #. js-lingui-id: mGasIh
 #: src/engine/metadata-modules/role/role.service.ts
 msgid "Cannot delete this role: it is still assigned to one or more API keys, and the workspace default role cannot be assigned to API keys. Please reassign these API keys to another role first."
-msgstr ""
+msgstr "无法删除此角色:它仍被分配给一个或多个 API 密钥,而工作区默认角色无法分配给 API 密钥。请先将这些 API 密钥重新分配到其他角色。"
 
 #. js-lingui-id: mWk3X+
 #: src/engine/metadata-modules/flat-field-metadata/utils/handle-index-changes-during-field-update.util.ts
@@ -1255,13 +1255,13 @@ msgstr "无法切换订阅套餐。"
 #. js-lingui-id: jNnzPT
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-role-belongs-to-caller-application.util.ts
 msgid "Cannot target a role owned by another application"
-msgstr ""
+msgstr "无法以另一个应用拥有的角色为目标"
 
 #. js-lingui-id: 2ET75e
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-role-belongs-to-caller-application.util.ts
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
 msgid "Cannot target a role owned by another application."
-msgstr ""
+msgstr "无法以另一个应用拥有的角色为目标。"
 
 #. js-lingui-id: fpzw+t
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-agent-validator.service.ts
@@ -1273,7 +1273,7 @@ msgstr "无法更新标准代理"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Cannot update standard permission flag definition"
-msgstr ""
+msgstr "无法更新标准权限标志定义"
 
 #. js-lingui-id: I2EmgT
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-skill-validator.service.ts
@@ -1289,28 +1289,28 @@ msgstr "不能手动更新工作流程版本状态"
 #. js-lingui-id: RpYfjZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Cc"
-msgstr ""
+msgstr "抄送"
 
 #. js-lingui-id: 4IVK41
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 msgid "Channel ID"
-msgstr ""
+msgstr "频道 ID"
 
 #. js-lingui-id: erTWgO
 #: src/engine/metadata-modules/ai/ai.exception.ts
 msgid "Chat message not found."
-msgstr ""
+msgstr "未找到聊天消息。"
 
 #. js-lingui-id: /VxChJ
 #: src/engine/metadata-modules/ai/ai.exception.ts
 msgid "Chat thread not found."
-msgstr ""
+msgstr "未找到聊天线程。"
 
 #. js-lingui-id: eLQjKW
 #: src/engine/metadata-modules/ai/ai.exception.ts
 msgid "Chat thread title cannot be empty."
-msgstr ""
+msgstr "聊天线程标题不能为空。"
 
 #. js-lingui-id: NGL+Sl
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-navigation-menu-item-validator.service.ts
@@ -1332,17 +1332,17 @@ msgstr "检测到视图筛选组层级中的循环依赖"
 #. js-lingui-id: 3wV73y
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #. js-lingui-id: J7dFKa
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "Client credentials are not configured for this OAuth provider."
-msgstr ""
+msgstr "此 OAuth 提供方未配置客户端凭据。"
 
 #. js-lingui-id: NRF7pg
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Close date"
-msgstr ""
+msgstr "成交日期"
 
 #. js-lingui-id: o21Tgt
 #: src/modules/workflow/common/exceptions/workflow-version-step.exception.ts
@@ -1352,7 +1352,7 @@ msgstr "代码步骤执行失败。"
 #. js-lingui-id: 96YB1a
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Color Scheme"
-msgstr ""
+msgstr "配色方案"
 
 #. js-lingui-id: xBSqqt
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
@@ -1370,12 +1370,12 @@ msgstr "未找到命令菜单项。"
 #. js-lingui-id: QeCopv
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Commas and dot"
-msgstr ""
+msgstr "逗号与点"
 
 #. js-lingui-id: s2QZS6
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Companies"
-msgstr ""
+msgstr "公司"
 
 #. js-lingui-id: 7i8j3G
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -1383,17 +1383,17 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Company"
-msgstr ""
+msgstr "公司"
 
 #. js-lingui-id: yA1de7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Company record position"
-msgstr ""
+msgstr "公司记录位置"
 
 #. js-lingui-id: qqWcBV
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Completed"
-msgstr ""
+msgstr "已完成"
 
 #. js-lingui-id: L1uQuF
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -1404,7 +1404,7 @@ msgstr "未找到复合类型。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Conference Solution"
-msgstr ""
+msgstr "会议解决方案"
 
 #. js-lingui-id: yU57/s
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-fields-flat-page-layout-widget-for-creation.util.ts
@@ -1525,18 +1525,18 @@ msgstr "未找到已连接账户。"
 #. js-lingui-id: xQ2DfP
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider display name is required"
-msgstr ""
+msgstr "连接提供方显示名称为必填项"
 
 #. js-lingui-id: zYcf9G
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider displayName is required"
-msgstr ""
+msgstr "连接提供方 displayName 为必填项"
 
 #. js-lingui-id: WsuFPo
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider name is required"
-msgstr ""
+msgstr "连接提供方名称为必填项"
 
 #. js-lingui-id: mTAp1w
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
@@ -1544,33 +1544,33 @@ msgstr ""
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider not found"
-msgstr ""
+msgstr "未找到连接提供方"
 
 #. js-lingui-id: b+xWjq
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "Connection provider not found."
-msgstr ""
+msgstr "未找到连接提供方。"
 
 #. js-lingui-id: z2V1Q6
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider oauthConfig.{label} is required"
-msgstr ""
+msgstr "连接提供方 oauthConfig.{label} 为必填项"
 
 #. js-lingui-id: vOKvb8
 #. placeholder {0}: flatConnectionProvider.name
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider with name {0} already exists for this application"
-msgstr ""
+msgstr "此应用中已存在名为 {0} 的连接提供方"
 
 #. js-lingui-id: YQTVfF
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider with type 'oauth' is missing oauthConfig"
-msgstr ""
+msgstr "类型为 'oauth' 的连接提供方缺少 oauthConfig"
 
 #. js-lingui-id: jfC/xh
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Contact"
-msgstr ""
+msgstr "联系人"
 
 #. js-lingui-id: rx63gq
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-skill-required-properties.util.ts
@@ -1581,12 +1581,12 @@ msgstr "内容不能为空"
 #. js-lingui-id: 869Uds
 #: src/engine/api/common/common-args-processors/data-arg-processor/validator-utils/validate-rich-text-field-or-throw.util.ts
 msgid "Content contains a URL with a dangerous protocol."
-msgstr ""
+msgstr "内容包含使用危险协议的 URL。"
 
 #. js-lingui-id: cmBz2p
 #: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
 msgid "Contradicting field permissions have been detected on a relation field."
-msgstr ""
+msgstr "在关系字段上检测到相互冲突的字段权限。"
 
 #. js-lingui-id: xuYXJX
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-view-sort-validator.service.ts
@@ -1597,7 +1597,7 @@ msgstr "必须提供正确的排序方向"
 #. js-lingui-id: s+lEnL
 #: src/engine/twenty-orm/workspace-schema-manager/exceptions/workspace-schema-manager.exception.ts
 msgid "Could not create the index because it must run outside a database transaction."
-msgstr ""
+msgstr "无法创建索引,因为它必须在数据库事务之外运行。"
 
 #. js-lingui-id: Fep47m
 #: src/engine/metadata-modules/flat-entity/utils/resolve-entity-relation-universal-identifiers.util.ts
@@ -1628,7 +1628,7 @@ msgstr "找不到与索引相关的对象元数据"
 #. js-lingui-id: P23sJE
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "Could not find the object for this index."
-msgstr ""
+msgstr "未找到此索引对应的对象。"
 
 #. js-lingui-id: KwGZ0m
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
@@ -1660,7 +1660,7 @@ msgstr "找不到已更新的字段元数据。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Created by"
-msgstr ""
+msgstr "创建者"
 
 #. js-lingui-id: 2ZhYYy
 #: src/engine/metadata-modules/flat-field-metadata/utils/from-create-field-input-to-flat-field-metadatas-to-create.util.ts
@@ -1719,18 +1719,18 @@ msgstr "创建的字段元数据，未找到父对象元数据"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Creation date"
-msgstr ""
+msgstr "创建日期"
 
 #. js-lingui-id: CJXWmO
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Creation DateTime"
-msgstr ""
+msgstr "创建时间"
 
 #. js-lingui-id: 6Oaeoc
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 #. js-lingui-id: umhXiy
 #: src/modules/workflow/workflow-trigger/utils/compute-cron-pattern-from-schedule.ts
@@ -1755,12 +1755,12 @@ msgstr "自定义对象缺少标签标识字段。"
 #. js-lingui-id: 876pfE
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Customer"
-msgstr ""
+msgstr "客户"
 
 #. js-lingui-id: 7p5kLi
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表盘"
 
 #. js-lingui-id: jlbLNx
 #: src/modules/dashboard/exceptions/dashboard.exception.ts
@@ -1770,22 +1770,22 @@ msgstr "未找到仪表板。"
 #. js-lingui-id: Lddz0a
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Dashboard page layout"
-msgstr ""
+msgstr "仪表盘页面布局"
 
 #. js-lingui-id: FrOkwR
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Dashboard record Position"
-msgstr ""
+msgstr "仪表盘记录位置"
 
 #. js-lingui-id: xGgnPh
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Dashboard title"
-msgstr ""
+msgstr "仪表盘标题"
 
 #. js-lingui-id: w6iIMm
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Dashboards"
-msgstr ""
+msgstr "仪表盘"
 
 #. js-lingui-id: Bv/LBb
 #: src/engine/twenty-orm/exceptions/twenty-orm.exception.ts
@@ -1805,12 +1805,12 @@ msgstr "数据库配置已禁用。"
 #. js-lingui-id: +i2Hzi
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "Database Event"
-msgstr ""
+msgstr "数据库事件"
 
 #. js-lingui-id: Lhd0oQ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Date format"
-msgstr ""
+msgstr "日期格式"
 
 #. js-lingui-id: 1lL5Iu
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -1838,38 +1838,38 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Date when the record was deleted"
-msgstr ""
+msgstr "记录被删除的日期"
 
 #. js-lingui-id: yiROdD
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Day First"
-msgstr ""
+msgstr "日在前"
 
 #. js-lingui-id: yAT3be
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Deactivated"
-msgstr ""
+msgstr "已停用"
 
 #. js-lingui-id: 3jX0AP
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Deal"
-msgstr ""
+msgstr "交易"
 
 #. js-lingui-id: pqRl9s
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Deal value created this month"
-msgstr ""
+msgstr "本月创建的交易金额"
 
 #. js-lingui-id: gb/ZlH
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Deals by Company"
-msgstr ""
+msgstr "按公司统计的交易"
 
 #. js-lingui-id: 8veD+Q
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Deals created this month"
-msgstr ""
+msgstr "本月创建的交易"
 
 #. js-lingui-id: r6zgGo
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -1879,7 +1879,7 @@ msgstr "十二月"
 #. js-lingui-id: ztGxi6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Declined"
-msgstr ""
+msgstr "已拒绝"
 
 #. js-lingui-id: cgV4xo
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -1940,18 +1940,18 @@ msgstr "默认值必须是唯一的"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Deleted at"
-msgstr ""
+msgstr "删除于"
 
 #. js-lingui-id: Nu4oKW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. js-lingui-id: MRB7nI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Direction"
-msgstr ""
+msgstr "方向"
 
 #. js-lingui-id: 0gS7M5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
@@ -1959,7 +1959,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #. js-lingui-id: IymH4t
 #: src/engine/core-modules/public-domain/public-domain.service.ts
@@ -1979,28 +1979,28 @@ msgstr "域名已注册为公共域。"
 #. js-lingui-id: wMncXq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Domain Name"
-msgstr ""
+msgstr "域名"
 
 #. js-lingui-id: DPfwMq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Done"
-msgstr ""
+msgstr "已完成"
 
 #. js-lingui-id: Wm78zZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Dots and comma"
-msgstr ""
+msgstr "点与逗号"
 
 #. js-lingui-id: eneWvv
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Draft"
-msgstr ""
+msgstr "草稿"
 
 #. js-lingui-id: YOowcq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Due Date"
-msgstr ""
+msgstr "截止日期"
 
 #. js-lingui-id: UrzTjS
 #: src/engine/core-modules/graphql/hooks/use-validate-graphql-query-complexity.hook.ts
@@ -2021,7 +2021,7 @@ msgstr "必须提供工作流版本或前端组件之一."
 #. js-lingui-id: AcnTuz
 #: src/engine/core-modules/user/services/user.service.ts
 msgid "Email already in use"
-msgstr ""
+msgstr "邮箱已被使用"
 
 #. js-lingui-id: BBXuRb
 #: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
@@ -2031,7 +2031,7 @@ msgstr "电子邮件已验证。"
 #. js-lingui-id: LT5dFi
 #: src/engine/core-modules/user/services/user.service.ts
 msgid "Email can only be updated when you belong to a single workspace."
-msgstr ""
+msgstr "只有当您属于单个工作区时,才能更新邮箱。"
 
 #. js-lingui-id: MYgdAv
 #: src/engine/core-modules/emailing-domain/drivers/exceptions/emailing-domain-driver.exception.ts
@@ -2046,7 +2046,7 @@ msgstr "未找到电子邮件域。"
 #. js-lingui-id: MhPwKU
 #: src/engine/metadata-modules/message-channel/message-channel.exception.ts
 msgid "Email group is not configured on this server."
-msgstr ""
+msgstr "此服务器未配置邮件群组。"
 
 #. js-lingui-id: m9fD11
 #: src/engine/core-modules/email-verification/email-verification.exception.ts
@@ -2108,7 +2108,7 @@ msgstr "电子邮件"
 #. js-lingui-id: gqv5ZL
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Employees"
-msgstr ""
+msgstr "员工数"
 
 #. js-lingui-id: aVGG1u
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -2119,7 +2119,7 @@ msgstr "不允许空的字段权限。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "End Date"
-msgstr ""
+msgstr "结束日期"
 
 #. js-lingui-id: g2om8o
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
@@ -2134,7 +2134,7 @@ msgstr "必须提供 engineComponentKey"
 #. js-lingui-id: ZzZwe/
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Enqueued"
-msgstr ""
+msgstr "已入队"
 
 #. js-lingui-id: ArAFBo
 #: src/engine/core-modules/auth/auth.exception.ts
@@ -2166,13 +2166,13 @@ msgstr "错误"
 #. js-lingui-id: kJDmsI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Event details"
-msgstr ""
+msgstr "事件详情"
 
 #. js-lingui-id: 0JhmlM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 msgid "Event external ID"
-msgstr ""
+msgstr "事件外部 ID"
 
 #. js-lingui-id: aZJLAR
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
@@ -2180,19 +2180,19 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 msgid "Event ID"
-msgstr ""
+msgstr "事件 ID"
 
 #. js-lingui-id: PYs3rP
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Event name"
-msgstr ""
+msgstr "事件名称"
 
 #. js-lingui-id: aicVfT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Event Participants"
-msgstr ""
+msgstr "事件参与者"
 
 #. js-lingui-id: 8B2x9+
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
@@ -2205,28 +2205,28 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Event target"
-msgstr ""
+msgstr "事件目标"
 
 #. js-lingui-id: LxOGsB
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Event workspace member"
-msgstr ""
+msgstr "事件工作区成员"
 
 #. js-lingui-id: tst44n
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Events"
-msgstr ""
+msgstr "事件"
 
 #. js-lingui-id: fHL+iH
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Events linked to the person"
-msgstr ""
+msgstr "关联到该人员的事件"
 
 #. js-lingui-id: 3/O8MM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Events linked to the workspace member"
-msgstr ""
+msgstr "关联到该工作区成员的事件"
 
 #. js-lingui-id: b3ictS
 #: src/engine/metadata-modules/view-field-group/services/fields-widget-upsert.service.ts
@@ -2236,7 +2236,7 @@ msgstr "必须只提供 \"groups\" 或 \"fields\" 中的一个"
 #. js-lingui-id: Lo5U0b
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Executed by"
-msgstr ""
+msgstr "执行者"
 
 #. js-lingui-id: AiFXmG
 #: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
@@ -2246,12 +2246,12 @@ msgstr "预期在所有操作中一致地使用相同的约束字段用于{conne
 #. js-lingui-id: 7Bj3x9
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 #. js-lingui-id: rl11Jd
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
 msgid "Failed to build function dependencies."
-msgstr ""
+msgstr "构建函数依赖失败。"
 
 #. js-lingui-id: E7Dsiq
 #: src/engine/metadata-modules/ai/ai-agent-monitor/resolvers/agent-turn.resolver.ts
@@ -2296,7 +2296,7 @@ msgstr "复制仪表板失败."
 #. js-lingui-id: srkEOV
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "Failed to exchange the authorization code for an access token."
-msgstr ""
+msgstr "用授权码换取访问令牌失败。"
 
 #. js-lingui-id: MIto3A
 #: src/engine/core-modules/sdk-client/exceptions/sdk-client.exception.ts
@@ -2331,7 +2331,7 @@ msgstr "记录计费事件失败。"
 #. js-lingui-id: eQmx6a
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "Failed to refresh the access token."
-msgstr ""
+msgstr "刷新访问令牌失败。"
 
 #. js-lingui-id: SJEIIJ
 #: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
@@ -2376,12 +2376,12 @@ msgstr "字段不能被索引，因为它属于不同的对象"
 #. js-lingui-id: e2V+x1
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
 msgid "Field cannot be used as label identifier due to its type"
-msgstr ""
+msgstr "该字段因其类型无法用作标签标识符"
 
 #. js-lingui-id: QMSXe6
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
 msgid "Field cannot be used as label identifier due to its type: should be of type UUID, text or full name"
-msgstr ""
+msgstr "该字段因其类型无法用作标签标识符:应为 UUID、文本或全名类型"
 
 #. js-lingui-id: F6OLoA
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
@@ -2460,40 +2460,40 @@ msgstr "未找到字段。"
 #. js-lingui-id: krbBsy
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission already exists"
-msgstr ""
+msgstr "字段权限已存在"
 
 #. js-lingui-id: J4IqxN
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission for this role, object and field already exists"
-msgstr ""
+msgstr "此角色、对象和字段的字段权限已存在"
 
 #. js-lingui-id: 8mkDdX
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission not found"
-msgstr ""
+msgstr "未找到字段权限"
 
 #. js-lingui-id: yqmAnC
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
 msgid "Field permission not found."
-msgstr ""
+msgstr "未找到字段权限。"
 
 #. js-lingui-id: 7OZNMg
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission to delete not found"
-msgstr ""
+msgstr "未找到要删除的字段权限"
 
 #. js-lingui-id: rR7vkH
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission to update not found"
-msgstr ""
+msgstr "未找到要更新的字段权限"
 
 #. js-lingui-id: A2VI9D
 #. placeholder {0}: flatFieldPermissionToValidate.universalIdentifier
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Field permission with universal identifier {0} already exists"
-msgstr ""
+msgstr "通用标识符为 {0} 的字段权限已存在"
 
 #. js-lingui-id: QXuG8C
 #: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
@@ -2528,7 +2528,7 @@ msgstr "未找到用于更新对象元数据的字段"
 #. js-lingui-id: stY5BO
 #: src/engine/metadata-modules/flat-field-metadata/services/flat-field-metadata-type-validator.service.ts
 msgid "Field type NUMERIC is not supported. Use Number instead."
-msgstr ""
+msgstr "不支持 NUMERIC 字段类型。请改用 Number。"
 
 #. js-lingui-id: p6JTHU
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-position-flat-field-metadata.util.ts
@@ -2553,7 +2553,7 @@ msgstr "字段类型 TS_VECTOR 必须命名为 \"searchVector\""
 #. js-lingui-id: NuL8km
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-ts-vector-flat-field-metadata.util.ts
 msgid "Field type TS_VECTOR must have an expression. This may have failed to be built because record identifier field does not exist or is not of a searchable type."
-msgstr ""
+msgstr "TS_VECTOR 字段类型必须有表达式。构建失败可能是因为记录标识符字段不存在或不是可搜索类型。"
 
 #. js-lingui-id: 5Buorv
 #: src/engine/metadata-modules/field-metadata/field-metadata.exception.ts
@@ -2630,7 +2630,7 @@ msgstr "必须提供 fieldMetadataId 或 fieldMetadataUniversalIdentifier"
 #. js-lingui-id: vF68cg
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Fields"
-msgstr ""
+msgstr "字段"
 
 #. js-lingui-id: 9HjeLQ
 #: src/engine/metadata-modules/view-field-group/services/fields-widget-upsert.service.ts
@@ -2645,7 +2645,7 @@ msgstr "未找到字段小部件"
 #. js-lingui-id: J2eKUI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #. js-lingui-id: ycn/wp
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
@@ -2660,7 +2660,7 @@ msgstr "针对该字段，未上传文件 {fileId}。请重新上传该文件。
 #. js-lingui-id: i+AQUz
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "File category"
-msgstr ""
+msgstr "文件类别"
 
 #. js-lingui-id: OR7oBd
 #: src/engine/core-modules/sdk-client/exceptions/sdk-client.exception.ts
@@ -2677,7 +2677,7 @@ msgstr "未找到文件。"
 #. js-lingui-id: I7Jff2
 #: src/engine/core-modules/file-storage/utils/validate-file-path.util.ts
 msgid "Filename must have an extension"
-msgstr ""
+msgstr "文件名必须包含扩展名"
 
 #. js-lingui-id: sER+bs
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
@@ -2693,12 +2693,12 @@ msgstr "唯一字段不支持 Files 字段类型"
 #. js-lingui-id: MkIaen
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-view-filter-validator.service.ts
 msgid "Filter operand is not supported for this field type"
-msgstr ""
+msgstr "此字段类型不支持该筛选操作数"
 
 #. js-lingui-id: 4GaFCQ
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "First friendly message"
-msgstr ""
+msgstr "第一条友好消息"
 
 #. js-lingui-id: ylQd2j
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
@@ -2715,7 +2715,7 @@ msgstr "文件夹名称为必填项"
 #. js-lingui-id: Hxo3YN
 #: src/engine/core-modules/file-storage/utils/validate-folder-path.util.ts
 msgid "Folder path must not contain a file extension — use deleteFile for file paths"
-msgstr ""
+msgstr "文件夹路径不得包含文件扩展名——文件路径请使用 deleteFile"
 
 #. js-lingui-id: eWmJYU
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-metadata-validator.service.ts
@@ -2745,7 +2745,7 @@ msgstr "星期五"
 #. js-lingui-id: ejVYRQ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "From"
-msgstr ""
+msgstr "发件人"
 
 #. js-lingui-id: Wed+Kp
 #: src/engine/metadata-modules/front-component/front-component.exception.ts
@@ -2807,12 +2807,12 @@ msgstr "当 engineComponentKey 为 TRIGGER_WORKFLOW_VERSION 时，不得设置 f
 #. js-lingui-id: oQA+cA
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Full path"
-msgstr ""
+msgstr "完整路径"
 
 #. js-lingui-id: yQDBsf
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
 msgid "Function code failed to compile."
-msgstr ""
+msgstr "函数代码编译失败。"
 
 #. js-lingui-id: pouguB
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
@@ -2822,7 +2822,7 @@ msgstr "函数代码未更改。"
 #. js-lingui-id: rqDhd1
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
 msgid "Function execution failed."
-msgstr ""
+msgstr "函数执行失败。"
 
 #. js-lingui-id: Ho3UAo
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
@@ -2852,19 +2852,19 @@ msgstr "未找到函数。"
 #. js-lingui-id: Weq9zb
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #. js-lingui-id: V8DWC+
 #. placeholder {0}: field.label
 #: src/engine/metadata-modules/index-metadata/utils/validate-index-type-against-fields.util.ts
 msgid "GIN indexes work on multi-select, array, JSON, and search-vector columns. \"{0}\" doesn't qualify."
-msgstr ""
+msgstr "GIN 索引适用于多选、数组、JSON 和搜索向量列。“{0}” 不符合条件。"
 
 #. js-lingui-id: xaBJxq
 #. placeholder {0}: field.label
 #: src/engine/metadata-modules/index-metadata/utils/validate-index-type-against-fields.util.ts
 msgid "GIN indexes work on multi-select, array, JSON, and search-vector columns. \"{0}\" sub-properties don't qualify."
-msgstr ""
+msgstr "GIN 索引适用于多选、数组、JSON 和搜索向量列。“{0}” 的子属性不符合条件。"
 
 #. js-lingui-id: cvJ2e6
 #: src/engine/core-modules/auth/auth.exception.ts
@@ -2895,7 +2895,7 @@ msgstr "饼图小部件 \"{widgetTitle}\" 需要分组字段"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 msgid "Handle"
-msgstr ""
+msgstr "地址"
 
 #. js-lingui-id: CDiGGx
 #: src/modules/calendar/calendar-event-import-manager/drivers/exceptions/calendar-event-import-driver.exception.ts
@@ -2905,7 +2905,7 @@ msgstr "必须提供句柄别名。"
 #. js-lingui-id: VehAU2
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Header message Id"
-msgstr ""
+msgstr "标头消息 ID"
 
 #. js-lingui-id: i0qMbr
 #: src/engine/metadata-modules/page-layout-tab/constants/standard-page-layout-tab-titles.ts
@@ -2916,12 +2916,12 @@ msgstr "主页"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "iCal UID"
-msgstr ""
+msgstr "iCal UID"
 
 #. js-lingui-id: CiyiKN
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "ICP"
-msgstr ""
+msgstr "ICP"
 
 #. js-lingui-id: dFb5Nt
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -2973,12 +2973,12 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Id"
-msgstr ""
+msgstr "ID"
 
 #. js-lingui-id: yEFb1B
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Ideal Customer Profile: Indicates whether the company is the most suitable and valuable customer for you"
-msgstr ""
+msgstr "理想客户画像:表明该公司是否是最适合且最有价值的客户"
 
 #. js-lingui-id: 6cVc+b
 #: src/engine/core-modules/sso/sso.exception.ts
@@ -2994,17 +2994,17 @@ msgstr "如果定义了默认值，则必须包含至少一个值"
 #. js-lingui-id: hG89Ed
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Image"
-msgstr ""
+msgstr "图片"
 
 #. js-lingui-id: /LCAwL
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "In progress"
-msgstr ""
+msgstr "进行中"
 
 #. js-lingui-id: RAMaAx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Incoming"
-msgstr ""
+msgstr "接收"
 
 #. js-lingui-id: Kfy/ML
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-index-metadata-validator.service.ts
@@ -3092,7 +3092,7 @@ msgstr "聚合字段参数无效。"
 #. js-lingui-id: 56bSD0
 #: src/engine/core-modules/application/application-variable/application-variable.exception.ts
 msgid "Invalid application variable input."
-msgstr ""
+msgstr "无效的应用变量输入。"
 
 #. js-lingui-id: KNrRpL
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -3261,7 +3261,7 @@ msgstr "字段输入无效。"
 #. placeholder {0}: Object.keys(allowedExtensions).join(', ')
 #: src/engine/core-modules/file-storage/utils/validate-file-extension.util.ts
 msgid "Invalid file extension. Allowed extensions: {0}"
-msgstr ""
+msgstr "无效的文件扩展名。允许的扩展名:{0}"
 
 #. js-lingui-id: dqt3x1
 #: src/engine/core-modules/file/file.exception.ts
@@ -3299,7 +3299,7 @@ msgstr "无效的筛选器值：“{value}”"
 #. js-lingui-id: NOU3zh
 #: src/engine/api/common/common-args-processors/filter-arg-processor/utils/validate-string-operator-value-or-throw.util.ts
 msgid "Invalid filter: \"{operator}\" operator requires a String"
-msgstr ""
+msgstr "无效筛选:“{operator}” 操作符需要一个字符串"
 
 #. js-lingui-id: +GVjEm
 #: src/engine/api/common/common-args-processors/filter-arg-processor/utils/validate-array-operator-value-or-throw.util.ts
@@ -3324,12 +3324,12 @@ msgstr "无效的筛选器：筛选值必须是对象"
 #. js-lingui-id: rpkTUe
 #: src/engine/api/common/common-args-processors/filter-arg-processor/filter-arg-processor.service.ts
 msgid "Invalid filter: filtering by relation field \"{key}\" is not supported"
-msgstr ""
+msgstr "无效筛选:不支持按关系字段 “{key}” 筛选"
 
 #. js-lingui-id: bNNDED
 #: src/engine/api/common/common-args-processors/filter-arg-processor/filter-arg-processor.service.ts
 msgid "Invalid filter: use \"{joinColumnName}\" to filter by this relation field"
-msgstr ""
+msgstr "无效筛选:请使用 “{joinColumnName}” 按此关系字段筛选"
 
 #. js-lingui-id: rFH0az
 #: src/engine/metadata-modules/front-component/front-component.exception.ts
@@ -3387,7 +3387,7 @@ msgstr "limit 参数无效。"
 #. js-lingui-id: 7SBmhB
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
 msgid "Invalid logic function input."
-msgstr ""
+msgstr "无效的逻辑函数输入。"
 
 #. js-lingui-id: fNaXqL
 #: src/engine/metadata-modules/message-channel/message-channel.exception.ts
@@ -3424,12 +3424,12 @@ msgstr "导航菜单项输入无效。"
 #. js-lingui-id: pQNAUc
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-fields-flat-page-layout-widget-for-creation.util.ts
 msgid "Invalid newFieldDefaultVisibility for fields widget"
-msgstr ""
+msgstr "字段小组件的 newFieldDefaultVisibility 无效"
 
 #. js-lingui-id: 1FhQYt
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-fields-flat-page-layout-widget-for-creation.util.ts
 msgid "Invalid newFieldDefaultVisibility for fields widget \"{widgetTitle}\". Expected a boolean"
-msgstr ""
+msgstr "字段小组件 “{widgetTitle}” 的 newFieldDefaultVisibility 无效。应为布尔值"
 
 #. js-lingui-id: 5ZHOkh
 #: src/engine/metadata-modules/object-metadata/object-metadata.exception.ts
@@ -3470,12 +3470,12 @@ msgstr "提供的参数无效。"
 #. js-lingui-id: LI7Gn/
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Invalid permission flag key."
-msgstr ""
+msgstr "无效的权限标志键。"
 
 #. js-lingui-id: OqxwMi
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Invalid permission flag permission type."
-msgstr ""
+msgstr "无效的权限标志权限类型。"
 
 #. js-lingui-id: mMHHVP
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
@@ -3492,7 +3492,7 @@ msgstr "权限设置无效。"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Invalid permission type"
-msgstr ""
+msgstr "无效的权限类型"
 
 #. js-lingui-id: 0D0YwP
 #: src/engine/core-modules/record-transformer/record-transformer.exception.ts
@@ -3533,7 +3533,7 @@ msgstr "无效的关系创建请求负载"
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
 msgid "Invalid relation field target"
-msgstr ""
+msgstr "无效的关系字段目标"
 
 #. js-lingui-id: lOyHVQ
 #: src/engine/core-modules/record-crud/exceptions/record-crud.exception.ts
@@ -3686,7 +3686,7 @@ msgstr "电子邮件的值无效。"
 #. js-lingui-id: qvqNco
 #: src/engine/api/common/common-args-processors/data-arg-processor/validator-utils/validate-rating-and-select-field-or-throw.util.ts
 msgid "Invalid value for field \"{fieldName}\""
-msgstr ""
+msgstr "字段 “{fieldName}” 的值无效"
 
 #. js-lingui-id: tfoEIq
 #: src/engine/api/common/common-args-processors/data-arg-processor/validator-utils/validate-files-field-or-throw.util.ts
@@ -3771,12 +3771,12 @@ msgstr "无效的验证码。请再试一次。"
 #. js-lingui-id: UV7Pll
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-fields-flat-page-layout-widget-for-creation.util.ts
 msgid "Invalid viewUniversalIdentifier for fields widget"
-msgstr ""
+msgstr "字段小组件的 viewUniversalIdentifier 无效"
 
 #. js-lingui-id: Bj1WZ+
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-fields-flat-page-layout-widget-for-creation.util.ts
 msgid "Invalid viewUniversalIdentifier for fields widget \"{widgetTitle}\". Expected a valid UUID"
-msgstr ""
+msgstr "字段小组件 “{widgetTitle}” 的 viewUniversalIdentifier 无效。应为有效的 UUID"
 
 #. js-lingui-id: z68tnU
 #: src/engine/metadata-modules/webhook/webhook.exception.ts
@@ -3847,19 +3847,19 @@ msgstr "工作流版本无效。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Is canceled"
-msgstr ""
+msgstr "已取消"
 
 #. js-lingui-id: uBx1xd
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Is Full Day"
-msgstr ""
+msgstr "是否全天"
 
 #. js-lingui-id: 3iAfL2
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Is Organizer"
-msgstr ""
+msgstr "是否为组织者"
 
 #. js-lingui-id: 1bOGPq
 #: src/engine/core-modules/enterprise/enterprise.exception.ts
@@ -3874,7 +3874,7 @@ msgstr "一月"
 #. js-lingui-id: 27z+FV
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Job Title"
-msgstr ""
+msgstr "职位"
 
 #. js-lingui-id: cCj4vg
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -3884,7 +3884,7 @@ msgstr "必须提供连接列名称。"
 #. js-lingui-id: 6pkAO8
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Join table linking message channel message associations to message folders"
-msgstr ""
+msgstr "用于关联消息频道消息与消息文件夹的连接表"
 
 #. js-lingui-id: PviVyk
 #: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
@@ -3894,12 +3894,12 @@ msgstr "加入您的团队，使用 Twenty"
 #. js-lingui-id: AQuLwi
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Json object to provide steps"
-msgstr ""
+msgstr "用于提供步骤的 JSON 对象"
 
 #. js-lingui-id: fOjmZ1
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Json object to provide trigger"
-msgstr ""
+msgstr "用于提供触发器的 JSON 对象"
 
 #. js-lingui-id: eCBMag
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-response-format.util.ts
@@ -3909,7 +3909,7 @@ msgstr "JSON 响应格式需要一个模式"
 #. js-lingui-id: TVc0/Q
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Json value for event details"
-msgstr ""
+msgstr "事件详情的 JSON 值"
 
 #. js-lingui-id: u4ex5r
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -3981,12 +3981,12 @@ msgstr "看板视图必须具有主分组字段"
 #. js-lingui-id: WDgCbh
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Key cannot be changed"
-msgstr ""
+msgstr "键不可更改"
 
 #. js-lingui-id: QV1ZPO
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Key is required"
-msgstr ""
+msgstr "键为必填项"
 
 #. js-lingui-id: 6sFS+I
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-skill-required-properties.util.ts
@@ -4054,12 +4054,12 @@ msgstr "标签中不得包含逗号"
 #. js-lingui-id: vXIe7J
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #. js-lingui-id: WvYp6o
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Last published Version Id"
-msgstr ""
+msgstr "最后发布的版本 ID"
 
 #. js-lingui-id: tGwswq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -4087,7 +4087,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Last time the record was changed"
-msgstr ""
+msgstr "记录最后变更的时间"
 
 #. js-lingui-id: o1zvNS
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -4115,7 +4115,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Last update"
-msgstr ""
+msgstr "最后更新"
 
 #. js-lingui-id: 0x2TQ/
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-bar-chart-configuration.util.ts
@@ -4137,35 +4137,35 @@ msgstr "对于 LINK 类型，必须提供链接"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Linked Object Metadata Id"
-msgstr ""
+msgstr "关联对象元数据 ID"
 
 #. js-lingui-id: 6YiMr4
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Linked Record cached name"
-msgstr ""
+msgstr "关联记录的缓存名称"
 
 #. js-lingui-id: sgHAxx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Linked Record id"
-msgstr ""
+msgstr "关联记录 ID"
 
 #. js-lingui-id: uCA6be
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Linkedin"
-msgstr ""
+msgstr "领英"
 
 #. js-lingui-id: LeFv/R
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "List of opportunities for which that person is the point of contact"
-msgstr ""
+msgstr "该人员作为联系点的商机列表"
 
 #. js-lingui-id: wJijgU
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Location"
-msgstr ""
+msgstr "位置"
 
 #. js-lingui-id: V5AXjr
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
@@ -4178,7 +4178,7 @@ msgstr "逻辑函数已存在"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 msgid "Logic function cannot be in PREBUILT mode without a fresh build and a checksum"
-msgstr ""
+msgstr "逻辑函数未经过全新构建且无校验和时,不能处于 PREBUILT 模式"
 
 #. js-lingui-id: mZvaAV
 #: src/engine/core-modules/logic-function/logic-function-trigger/triggers/route/exceptions/route-trigger.exception.ts
@@ -4213,7 +4213,7 @@ msgstr "具有相同通用标识符的逻辑函数已存在"
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/build-metadata-validation-error-payload.util.ts
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "Many validation errors"
-msgstr ""
+msgstr "存在多个校验错误"
 
 #. js-lingui-id: hg6l4j
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -4249,12 +4249,12 @@ msgstr "五月"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Meet Link"
-msgstr ""
+msgstr "Meet 链接"
 
 #. js-lingui-id: oE8Gmu
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Meeting"
-msgstr ""
+msgstr "会议"
 
 #. js-lingui-id: xDAtGP
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -4262,51 +4262,51 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #. js-lingui-id: DzU4a3
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-thread-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Message Channel Association"
-msgstr ""
+msgstr "消息频道关联"
 
 #. js-lingui-id: wd/R++
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Channel Id"
-msgstr ""
+msgstr "消息频道 ID"
 
 #. js-lingui-id: disipM
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-message-folder-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-message-folder-standard-flat-field-metadata.util.ts
 msgid "Message Channel Message Association"
-msgstr ""
+msgstr "消息频道消息关联"
 
 #. js-lingui-id: 3BMS+k
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Channel Message Association Message Folder"
-msgstr ""
+msgstr "消息频道消息关联消息文件夹"
 
 #. js-lingui-id: pFe3WO
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-message-folder-standard-flat-field-metadata.util.ts
 msgid "Message channel message association message folder record position"
-msgstr ""
+msgstr "消息频道消息关联消息文件夹记录位置"
 
 #. js-lingui-id: 5RRTyw
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Channel Message Association Message Folders"
-msgstr ""
+msgstr "消息频道消息关联消息文件夹"
 
 #. js-lingui-id: ndzpor
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message channel message association record position"
-msgstr ""
+msgstr "消息频道消息关联记录位置"
 
 #. js-lingui-id: ijQY3P
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Channel Message Associations"
-msgstr ""
+msgstr "消息频道消息关联"
 
 #. js-lingui-id: vjIbbe
 #: src/engine/metadata-modules/message-channel/message-channel.exception.ts
@@ -4316,18 +4316,18 @@ msgstr "消息通道未找到."
 #. js-lingui-id: /4uGJc
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Direction"
-msgstr ""
+msgstr "消息方向"
 
 #. js-lingui-id: fBw8fQ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message External Id"
-msgstr ""
+msgstr "消息外部 ID"
 
 #. js-lingui-id: CStLnc
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-message-folder-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-message-folder-standard-flat-field-metadata.util.ts
 msgid "Message Folder"
-msgstr ""
+msgstr "消息文件夹"
 
 #. js-lingui-id: BZbxut
 #: src/engine/metadata-modules/message-folder/message-folder.exception.ts
@@ -4337,38 +4337,38 @@ msgstr "消息文件夹未找到."
 #. js-lingui-id: p4ANpY
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Folders"
-msgstr ""
+msgstr "消息文件夹"
 
 #. js-lingui-id: 3m/jfT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Folders (supports multiple folders/labels)"
-msgstr ""
+msgstr "消息文件夹(支持多个文件夹/标签)"
 
 #. js-lingui-id: 6icznk
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Id"
-msgstr ""
+msgstr "消息 ID"
 
 #. js-lingui-id: 9FJSpK
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Message id from the message header"
-msgstr ""
+msgstr "来自消息标头的消息 ID"
 
 #. js-lingui-id: yaC1Aq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message id from the messaging provider"
-msgstr ""
+msgstr "来自消息服务提供方的消息 ID"
 
 #. js-lingui-id: IUmVwu
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Participant"
-msgstr ""
+msgstr "消息参与者"
 
 #. js-lingui-id: s97wWW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Message Participant record position"
-msgstr ""
+msgstr "消息参与者记录位置"
 
 #. js-lingui-id: FhIFx7
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -4380,23 +4380,23 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Message Participants"
-msgstr ""
+msgstr "消息参与者"
 
 #. js-lingui-id: w9lbnZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Message record position"
-msgstr ""
+msgstr "消息记录位置"
 
 #. js-lingui-id: IC5A8V
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Synced with a Message Channel"
-msgstr ""
+msgstr "与消息频道同步的消息"
 
 #. js-lingui-id: de2nM/
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Thread"
-msgstr ""
+msgstr "消息线程"
 
 #. js-lingui-id: km1jgD
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
@@ -4404,34 +4404,34 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Message Thread Id"
-msgstr ""
+msgstr "消息线程 ID"
 
 #. js-lingui-id: l2/A0/
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-thread-standard-flat-field-metadata.util.ts
 msgid "Message Thread record position"
-msgstr ""
+msgstr "消息线程记录位置"
 
 #. js-lingui-id: RD0ecC
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Message Threads"
-msgstr ""
+msgstr "消息线程"
 
 #. js-lingui-id: t7TeQU
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-thread-standard-flat-field-metadata.util.ts
 msgid "Messages"
-msgstr ""
+msgstr "消息"
 
 #. js-lingui-id: WoWdku
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-thread-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Messages from the channel."
-msgstr ""
+msgstr "来自该频道的消息。"
 
 #. js-lingui-id: rYPBO7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-thread-standard-flat-field-metadata.util.ts
 msgid "Messages from the thread."
-msgstr ""
+msgstr "来自该线程的消息。"
 
 #. js-lingui-id: PslTPV
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/build-metadata-validation-error-payload.util.ts
@@ -4458,7 +4458,7 @@ msgstr "迁移执行失败。"
 #. js-lingui-id: G6wJK8
 #: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
 msgid "Minute value cannot exceed 60. For intervals greater than 60 minutes, use the \"Hours\" trigger type or a custom cron expression"
-msgstr ""
+msgstr "分钟值不能超过 60。对于大于 60 分钟的间隔,请使用 “小时” 触发器类型或自定义 cron 表达式"
 
 #. js-lingui-id: lCnasH
 #: src/engine/workspace-cache/exceptions/workspace-cache.exception.ts
@@ -4494,7 +4494,7 @@ msgstr "星期一"
 #. js-lingui-id: Er0m61
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Month First"
-msgstr ""
+msgstr "月在前"
 
 #. js-lingui-id: Lcqv5g
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-flat-field-metadata.util.ts
@@ -4526,7 +4526,7 @@ msgstr "预期一个订阅，但找到多个。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. js-lingui-id: 2m6Fru
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
@@ -4541,7 +4541,7 @@ msgstr "名称 \"{name}\" 不可用，因为它已被另一个字段使用"
 #. js-lingui-id: dBDpp2
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
 msgid "Name \"{name}\" is not available as it is already used by join column name"
-msgstr ""
+msgstr "名称 “{name}” 不可用,因为它已被某个连接列名占用"
 
 #. js-lingui-id: Aam+mb
 #: src/engine/metadata-modules/utils/exceptions/invalid-metadata.exception.ts
@@ -4577,7 +4577,7 @@ msgstr "名称必须为 camelCase 格式。"
 #. js-lingui-id: csMjko
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Name of the workflow run"
-msgstr ""
+msgstr "工作流运行的名称"
 
 #. js-lingui-id: Dr0xtb
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
@@ -4624,17 +4624,17 @@ msgstr "导航菜单项类型是必填项"
 #. js-lingui-id: t6LpHj
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Needs Action"
-msgstr ""
+msgstr "需要操作"
 
 #. js-lingui-id: isRobC
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "New"
-msgstr ""
+msgstr "新建"
 
 #. js-lingui-id: TYhxR+
 #: src/engine/core-modules/user/services/user.service.ts
 msgid "New email must be different from current email"
-msgstr ""
+msgstr "新邮箱必须与当前邮箱不同"
 
 #. js-lingui-id: 1UzENP
 #: src/modules/dashboard/chart-data/utils/format-dimension-value.util.ts
@@ -4729,7 +4729,7 @@ msgstr "未找到启用了密码身份验证的工作区。"
 #. js-lingui-id: eRIGld
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "Not authorized to access this OAuth provider."
-msgstr ""
+msgstr "无权访问此 OAuth 提供方。"
 
 #. js-lingui-id: NpVtef
 #: src/modules/dashboard/chart-data/utils/format-dimension-value.util.ts
@@ -4740,7 +4740,7 @@ msgstr "未设置"
 #. js-lingui-id: mu1gVr
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Not started"
-msgstr ""
+msgstr "未开始"
 
 #. js-lingui-id: KiJn9B
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -4753,37 +4753,37 @@ msgstr "备注"
 #. js-lingui-id: GGlkb7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Note attachments"
-msgstr ""
+msgstr "备注附件"
 
 #. js-lingui-id: Q1Rz+6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Note body"
-msgstr ""
+msgstr "备注正文"
 
 #. js-lingui-id: Yp057F
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Note record position"
-msgstr ""
+msgstr "备注记录位置"
 
 #. js-lingui-id: spaO7l
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Note Target"
-msgstr ""
+msgstr "备注目标"
 
 #. js-lingui-id: mkchvJ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Note targets"
-msgstr ""
+msgstr "备注目标"
 
 #. js-lingui-id: tD4BxK
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Note Targets"
-msgstr ""
+msgstr "备注目标"
 
 #. js-lingui-id: jDThel
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Note title"
-msgstr ""
+msgstr "备注标题"
 
 #. js-lingui-id: 1DBGsz
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -4798,34 +4798,34 @@ msgstr "备注"
 #. js-lingui-id: fXBE74
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Notes tied to the company"
-msgstr ""
+msgstr "关联到该公司的备注"
 
 #. js-lingui-id: iQ5AH6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Notes tied to the contact"
-msgstr ""
+msgstr "关联到该联系人的备注"
 
 #. js-lingui-id: 0bi/Eh
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Notes tied to the opportunity"
-msgstr ""
+msgstr "关联到该商机的备注"
 
 #. js-lingui-id: /mH0jo
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-target-standard-flat-field-metadata.util.ts
 msgid "NoteTarget note"
-msgstr ""
+msgstr "备注目标的备注"
 
 #. js-lingui-id: sX4Xu7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-target-standard-flat-field-metadata.util.ts
 msgid "NoteTarget record position"
-msgstr ""
+msgstr "备注目标记录位置"
 
 #. js-lingui-id: mqwohF
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-target-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-target-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-target-standard-flat-field-metadata.util.ts
 msgid "NoteTarget target"
-msgstr ""
+msgstr "备注目标的目标"
 
 #. js-lingui-id: t9QlBd
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -4835,17 +4835,17 @@ msgstr "十一月"
 #. js-lingui-id: bR2sEm
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Number format"
-msgstr ""
+msgstr "数字格式"
 
 #. js-lingui-id: ioJFzx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Number of employees in the company"
-msgstr ""
+msgstr "公司的员工数"
 
 #. js-lingui-id: MKdH/S
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "OAuth {label} is required"
-msgstr ""
+msgstr "OAuth {label} 为必填项"
 
 #. js-lingui-id: 08qKzD
 #: src/engine/core-modules/auth/auth.exception.ts
@@ -4855,12 +4855,12 @@ msgstr "OAuth 访问被拒绝。"
 #. js-lingui-id: zey8hv
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "OAuth connection provider is missing its oauth config block"
-msgstr ""
+msgstr "OAuth 连接提供方缺少其 oauth 配置块"
 
 #. js-lingui-id: xodh4N
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "OAuth provider not found."
-msgstr ""
+msgstr "未找到 OAuth 提供方。"
 
 #. js-lingui-id: ECRKYR
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
@@ -5012,7 +5012,7 @@ msgstr "删除时操作仅支持多对一关系"
 #. js-lingui-id: DWJeR1
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "One of the selected fields does not belong to this object."
-msgstr ""
+msgstr "所选字段中有一个不属于此对象。"
 
 #. js-lingui-id: JZB2eY
 #: src/engine/api/common/common-query-runners/common-merge-many-query-runner.service.ts
@@ -5032,7 +5032,7 @@ msgstr "一个或多个请求的作用域无效。"
 #. js-lingui-id: XLn1DI
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "Only error"
-msgstr ""
+msgstr "仅错误"
 
 #. js-lingui-id: eYgzEd
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -5043,7 +5043,7 @@ msgstr "仅允许字段限制。"
 #. placeholder {0}: allowedOperands.join(', ')
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-view-filter-validator.service.ts
 msgid "Operand \"{operand}\" is not supported on field type \"{effectiveFieldType}\". Supported operands: {0}."
-msgstr ""
+msgstr "字段类型 “{effectiveFieldType}” 不支持操作数 “{operand}”。支持的操作数:{0}。"
 
 #. js-lingui-id: 4MyDFl
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -5051,62 +5051,62 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Opportunities"
-msgstr ""
+msgstr "商机"
 
 #. js-lingui-id: vTpjG9
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Opportunities by Owner"
-msgstr ""
+msgstr "按负责人统计的商机"
 
 #. js-lingui-id: 5QgKbT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Opportunities linked to the company."
-msgstr ""
+msgstr "关联到该公司的商机。"
 
 #. js-lingui-id: zvf8hK
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Opportunities owned by the workspace member"
-msgstr ""
+msgstr "该工作区成员负责的商机"
 
 #. js-lingui-id: SV/iis
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Opportunity"
-msgstr ""
+msgstr "商机"
 
 #. js-lingui-id: WnMlKn
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity amount"
-msgstr ""
+msgstr "商机金额"
 
 #. js-lingui-id: aj3fnv
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity close date"
-msgstr ""
+msgstr "商机成交日期"
 
 #. js-lingui-id: 3NYczb
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity company"
-msgstr ""
+msgstr "商机所属公司"
 
 #. js-lingui-id: r3rEzW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity owner"
-msgstr ""
+msgstr "商机负责人"
 
 #. js-lingui-id: as45IN
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity point of contact"
-msgstr ""
+msgstr "商机联系点"
 
 #. js-lingui-id: Q1dzBp
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity record position"
-msgstr ""
+msgstr "商机记录位置"
 
 #. js-lingui-id: 5ugYS3
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Opportunity stage"
-msgstr ""
+msgstr "商机阶段"
 
 #. js-lingui-id: 2mFkfl
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
@@ -5184,33 +5184,33 @@ msgstr "枚举字段需要选项"
 #. js-lingui-id: /IX/7x
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #. js-lingui-id: 4romcD
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "Other error"
-msgstr ""
+msgstr "其他错误"
 
 #. js-lingui-id: O0Z2Xr
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Outgoing"
-msgstr ""
+msgstr "发送"
 
 #. js-lingui-id: 6ua+9g
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Owned opportunities"
-msgstr ""
+msgstr "负责的商机"
 
 #. js-lingui-id: LtI9AS
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Owner"
-msgstr ""
+msgstr "负责人"
 
 #. js-lingui-id: AODALE
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Page Layout ID"
-msgstr ""
+msgstr "页面布局 ID"
 
 #. js-lingui-id: ZKtamk
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-page-layout-validator.service.ts
@@ -5302,7 +5302,7 @@ msgstr "通用标识符为{flatPageLayoutWidgetUniversalIdentifier}的页面布�
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-navigation-menu-item-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-navigation-menu-item-validator.service.ts
 msgid "pageLayoutId is required for PAGE_LAYOUT type"
-msgstr ""
+msgstr "PAGE_LAYOUT 类型需要 pageLayoutId"
 
 #. js-lingui-id: T1gSWA
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-navigation-menu-item-validator.service.ts
@@ -5346,99 +5346,99 @@ msgstr "密码太弱"
 #. js-lingui-id: DpnDl6
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
 msgid "Payload is required for navigation items"
-msgstr ""
+msgstr "导航项需要 payload"
 
 #. js-lingui-id: Enmszs
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
 msgid "payload is required when engineComponentKey is NAVIGATION"
-msgstr ""
+msgstr "当 engineComponentKey 为 NAVIGATION 时,payload 为必填项"
 
 #. js-lingui-id: QXVtcO
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
 msgid "payload must contain either a \"path\" or \"objectMetadataItemId\" property"
-msgstr ""
+msgstr "payload 必须包含 “path” 或 “objectMetadataItemId” 属性之一"
 
 #. js-lingui-id: Z+s6mX
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
 msgid "Payload must contain either a path or an object metadata item identifier"
-msgstr ""
+msgstr "payload 必须包含路径或对象元数据项标识符之一"
 
 #. js-lingui-id: 1wdjme
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "People"
-msgstr ""
+msgstr "人员"
 
 #. js-lingui-id: E1zc7W
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "People linked to the company."
-msgstr ""
+msgstr "关联到该公司的人员。"
 
 #. js-lingui-id: XDAwzW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Per-step observability payload (token usage, tool calls, log entries)"
-msgstr ""
+msgstr "每个步骤的可观测性负载(token 用量、工具调用、日志条目)"
 
 #. js-lingui-id: 3zRddX
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Permission flag already exists."
-msgstr ""
+msgstr "权限标志已存在。"
 
 #. js-lingui-id: vUfYBs
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition already exists"
-msgstr ""
+msgstr "权限标志定义已存在"
 
 #. js-lingui-id: si69+A
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition key cannot be changed after creation"
-msgstr ""
+msgstr "权限标志定义键创建后不可更改"
 
 #. js-lingui-id: vCvEfM
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition key is required"
-msgstr ""
+msgstr "权限标志定义键为必填项"
 
 #. js-lingui-id: IPm2ty
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition not found"
-msgstr ""
+msgstr "未找到权限标志定义"
 
 #. js-lingui-id: /amTA5
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition permission type must be 'settings' or 'tool'"
-msgstr ""
+msgstr "权限标志定义的权限类型必须为 'settings' 或 'tool'"
 
 #. js-lingui-id: dKSPBk
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition to delete not found"
-msgstr ""
+msgstr "未找到要删除的权限标志定义"
 
 #. js-lingui-id: 5phRcJ
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition to update not found"
-msgstr ""
+msgstr "未找到要更新的权限标志定义"
 
 #. js-lingui-id: KNBagU
 #. placeholder {0}: flatPermissionFlagToValidate.key
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition with key \"{0}\" is already registered in this workspace."
-msgstr ""
+msgstr "键为 “{0}” 的权限标志定义已在此工作区注册。"
 
 #. js-lingui-id: FxbCOo
 #. placeholder {0}: existing.key
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition with key {0} is still assigned to a role"
-msgstr ""
+msgstr "键为 {0} 的权限标志定义仍被分配给某个角色"
 
 #. js-lingui-id: px8Wqt
 #. placeholder {0}: flatPermissionFlagToValidate.universalIdentifier
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Permission flag definition with universal identifier {0} already exists"
-msgstr ""
+msgstr "通用标识符为 {0} 的权限标志定义已存在"
 
 #. js-lingui-id: qG245w
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
@@ -5449,12 +5449,12 @@ msgstr "此角色和设置的权限标志已存在。"
 #. js-lingui-id: 7A0rAw
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Permission flag is still assigned to a role."
-msgstr ""
+msgstr "权限标志仍被分配给某个角色。"
 
 #. js-lingui-id: 09NaoU
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Permission flag key cannot be changed."
-msgstr ""
+msgstr "权限标志键不可更改。"
 
 #. js-lingui-id: 2mZr45
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
@@ -5467,7 +5467,7 @@ msgstr "未找到权限标志。"
 #. js-lingui-id: 3qYOk2
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Permission flag not found."
-msgstr ""
+msgstr "未找到权限标志。"
 
 #. js-lingui-id: dqLRwc
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
@@ -5491,33 +5491,33 @@ msgstr "未找到权限。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Person"
-msgstr ""
+msgstr "人员"
 
 #. js-lingui-id: c3Qq6o
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Person record Position"
-msgstr ""
+msgstr "人员记录位置"
 
 #. js-lingui-id: m2ivgq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Phones"
-msgstr ""
+msgstr "电话"
 
 #. js-lingui-id: RrxR7k
 #. placeholder {0}: flatField.label
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "Pick a specific sub-field of \"{0}\" — composite fields can't be indexed as a whole."
-msgstr ""
+msgstr "请选择 “{0}” 的某个具体子字段——组合字段无法作为整体建立索引。"
 
 #. js-lingui-id: TtfDdb
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "Pick at least one field for the index."
-msgstr ""
+msgstr "请至少为索引选择一个字段。"
 
 #. js-lingui-id: f0YMH6
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Pipeline Value by Stage"
-msgstr ""
+msgstr "按阶段统计的管道价值"
 
 #. js-lingui-id: rxi3R2
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
@@ -5527,17 +5527,17 @@ msgstr "请检查您的连接设置。确保服务器主机、端口和密码正
 #. js-lingui-id: PdKZim
 #: src/engine/core-modules/admin-panel/admin-panel.exception.ts
 msgid "Please choose an end date and time after the start date and time."
-msgstr ""
+msgstr "请选择晚于开始日期和时间的结束日期和时间。"
 
 #. js-lingui-id: mqzu5F
 #: src/engine/core-modules/email-verification/services/email-verification.service.ts
 msgid "Please confirm your updated email"
-msgstr ""
+msgstr "请确认您更新后的邮箱"
 
 #. js-lingui-id: qgasuj
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
 msgid "Please provide a password for this connection."
-msgstr ""
+msgstr "请为此连接提供密码。"
 
 #. js-lingui-id: NR22yi
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-webhook-validator.service.ts
@@ -5575,7 +5575,7 @@ msgstr "请使用单点登录进行身份验证。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Point of Contact"
-msgstr ""
+msgstr "联系点"
 
 #. js-lingui-id: p/78dY
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -5603,7 +5603,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 #. js-lingui-id: c7uZDh
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-page-layout-widget-validator.service.ts
@@ -5621,22 +5621,22 @@ msgstr "位置必须为有限数值"
 #. js-lingui-id: YzUxdC
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
 msgid "Prebuilt bundle is not installed on the function. Rebuild and try again."
-msgstr ""
+msgstr "该函数上未安装预构建包。请重新构建后再试。"
 
 #. js-lingui-id: TTHIbk
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Preferred color scheme"
-msgstr ""
+msgstr "偏好的配色方案"
 
 #. js-lingui-id: 5v4qYi
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Preferred language"
-msgstr ""
+msgstr "偏好的语言"
 
 #. js-lingui-id: FOoDGS
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Presentation"
-msgstr ""
+msgstr "演示文稿"
 
 #. js-lingui-id: +DJKfQ
 #: src/engine/metadata-modules/flat-page-layout-widget/validators/utils/validate-bar-chart-configuration.util.ts
@@ -5667,12 +5667,12 @@ msgstr "提示词不能为空"
 #. js-lingui-id: OTJNm9
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-role-required-properties-are-defined.util.ts
 msgid "Property {property} is required for role"
-msgstr ""
+msgstr "角色需要属性 {property}"
 
 #. js-lingui-id: qcybNQ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Proposal"
-msgstr ""
+msgstr "提案"
 
 #. js-lingui-id: dtGxRz
 #: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
@@ -5737,7 +5737,7 @@ msgstr "不允许原生 SQL 查询。"
 #. js-lingui-id: YfbwOB
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Received At"
-msgstr ""
+msgstr "接收于"
 
 #. js-lingui-id: EESfI5
 #: src/engine/twenty-orm/exceptions/twenty-orm.exception.ts
@@ -5752,19 +5752,19 @@ msgstr "未找到记录。"
 #. js-lingui-id: LVUF8D
 #: src/engine/metadata-modules/view/services/view-widget-upsert.service.ts
 msgid "Record table widget has no associated view"
-msgstr ""
+msgstr "记录表格小组件没有关联的视图"
 
 #. js-lingui-id: KnnILY
 #: src/engine/metadata-modules/view/services/view-widget-upsert.service.ts
 #: src/engine/metadata-modules/view/services/view-widget-upsert.service.ts
 msgid "Record table widget not found"
-msgstr ""
+msgstr "未找到记录表格小组件"
 
 #. js-lingui-id: 9gXJw8
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
 msgid "Recurring Event ID"
-msgstr ""
+msgstr "周期性事件 ID"
 
 #. js-lingui-id: 1GvzpH
 #: src/engine/metadata-modules/connected-account/exceptions/connected-account-refresh-tokens.exception.ts
@@ -5779,7 +5779,7 @@ msgstr "未找到相关记录。"
 #. js-lingui-id: 2LpFdR
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Related user email address"
-msgstr ""
+msgstr "关联用户的邮箱地址"
 
 #. js-lingui-id: 2LXGtF
 #: src/engine/metadata-modules/field-metadata/field-metadata.exception.ts
@@ -5801,18 +5801,18 @@ msgstr "未找到关系字段的目标元数据"
 #: src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-filter/graphql-query-filter-field.parser.ts
 #: src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-filter/graphql-query-filter-field.parser.ts
 msgid "Relation filter is misconfigured"
-msgstr ""
+msgstr "关系筛选配置有误"
 
 #. js-lingui-id: 1RF4/e
 #: src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-filter/graphql-query-filter-field.parser.ts
 msgid "Relation filter is not supported here"
-msgstr ""
+msgstr "此处不支持关系筛选"
 
 #. js-lingui-id: L8AY9P
 #: src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-filter/graphql-query-filter-field.parser.ts
 #: src/engine/api/common/common-args-processors/filter-arg-processor/filter-arg-processor.service.ts
 msgid "Relation filters can only traverse one relation deep"
-msgstr ""
+msgstr "关系筛选只能穿透一层关系"
 
 #. js-lingui-id: 83atrc
 #: src/engine/metadata-modules/field-metadata/field-metadata.exception.ts
@@ -5824,7 +5824,7 @@ msgstr "此字段未启用关系。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Relations"
-msgstr ""
+msgstr "关系"
 
 #. js-lingui-id: PWdFkY
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-metadata-validator.service.ts
@@ -5842,7 +5842,7 @@ msgstr "不支持远程对象"
 #. js-lingui-id: yFLhnq
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-permission-flag-validator.service.ts
 msgid "Remove this permission from all roles before deleting it"
-msgstr ""
+msgstr "删除此权限前,请先将它从所有角色中移除"
 
 #. js-lingui-id: pCsIQQ
 #: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
@@ -5852,37 +5852,37 @@ msgstr "请求已过期，请重试。"
 #. js-lingui-id: uAJ5BF
 #: src/engine/core-modules/file-storage/utils/validate-safe-relative-path.util.ts
 msgid "Resource path contains null bytes"
-msgstr ""
+msgstr "资源路径包含空字节"
 
 #. js-lingui-id: PxO731
 #: src/engine/core-modules/file-storage/utils/validate-path-segments-safety.util.ts
 msgid "Resource path exceeds maximum length of {MAX_PATH_LENGTH} characters"
-msgstr ""
+msgstr "资源路径超过了 {MAX_PATH_LENGTH} 个字符的最大长度"
 
 #. js-lingui-id: s7cqdG
 #: src/engine/core-modules/file-storage/utils/validate-safe-relative-path.util.ts
 msgid "Resource path must be relative, not absolute"
-msgstr ""
+msgstr "资源路径必须为相对路径,而非绝对路径"
 
 #. js-lingui-id: Q7KCby
 #: src/engine/core-modules/file-storage/utils/validate-safe-relative-path.util.ts
 msgid "Resource path must not be empty"
-msgstr ""
+msgstr "资源路径不能为空"
 
 #. js-lingui-id: lS6C4L
 #: src/engine/core-modules/file-storage/utils/validate-safe-relative-path.util.ts
 msgid "Resource path must not contain backslashes"
-msgstr ""
+msgstr "资源路径不得包含反斜杠"
 
 #. js-lingui-id: 1mnXbh
 #: src/engine/core-modules/file-storage/utils/validate-path-segments-safety.util.ts
 msgid "Resource path must not contain empty segments or trailing slashes"
-msgstr ""
+msgstr "资源路径不得包含空片段或结尾斜杠"
 
 #. js-lingui-id: SkT3Lf
 #: src/engine/core-modules/file-storage/utils/validate-safe-relative-path.util.ts
 msgid "Resource path must not contain path traversal (..)"
-msgstr ""
+msgstr "资源路径不得包含路径穿越(..)"
 
 #. js-lingui-id: KPIUoa
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-response-format.util.ts
@@ -5903,36 +5903,36 @@ msgstr "类型为 \"text\" 的响应格式不应包含模式"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Response Status"
-msgstr ""
+msgstr "响应状态"
 
 #. js-lingui-id: 1AYnSb
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Revenue Timeline"
-msgstr ""
+msgstr "收入时间线"
 
 #. js-lingui-id: GDvlUT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Role"
-msgstr ""
+msgstr "角色"
 
 #. js-lingui-id: QbW1ho
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 msgid "Role \"{roleLabel}\" cannot be assigned to agents"
-msgstr ""
+msgstr "角色 “{roleLabel}” 无法分配给智能体"
 
 #. js-lingui-id: u1Fm8i
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 msgid "Role \"{roleLabel}\" cannot be assigned to API keys"
-msgstr ""
+msgstr "角色 “{roleLabel}” 无法分配给 API 密钥"
 
 #. js-lingui-id: 9ZQkou
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-assignation-availability.util.ts
 msgid "Role \"{roleLabel}\" cannot be assigned to users"
-msgstr ""
+msgstr "角色 “{roleLabel}” 无法分配给用户"
 
 #. js-lingui-id: ViBevc
 #: src/engine/metadata-modules/role/exceptions/role-target.exception.ts
@@ -5960,7 +5960,7 @@ msgstr "角色必须至少有一个目标。"
 #. js-lingui-id: BEtj6u
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "Role name is invalid"
-msgstr ""
+msgstr "角色名称无效"
 
 #. js-lingui-id: MvTCyk
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-row-level-permission-predicate-validator.service.ts
@@ -5992,7 +5992,7 @@ msgstr ""
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "Role not found"
-msgstr ""
+msgstr "未找到角色"
 
 #. js-lingui-id: /BTyf+
 #: src/engine/metadata-modules/row-level-permission-predicate/exceptions/row-level-permission-predicate.exception.ts
@@ -6006,13 +6006,13 @@ msgstr "未找到角色。"
 #. js-lingui-id: zlsZBc
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
 msgid "Role permission flag already exists"
-msgstr ""
+msgstr "角色权限标志已存在"
 
 #. js-lingui-id: 2NHP+l
 #. placeholder {0}: flatRolePermissionFlagToValidate.universalIdentifier
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-permission-flag-validator.service.ts
 msgid "Role permission flag with universal identifier {0} already exists"
-msgstr ""
+msgstr "通用标识符为 {0} 的角色权限标志已存在"
 
 #. js-lingui-id: K+Gn31
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-target-validator.service.ts
@@ -6028,7 +6028,7 @@ msgstr "角色目标缺少标识符。"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-targets-only-one-entity.util.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-flat-role-target-targets-only-one-entity.util.ts
 msgid "Role target must have exactly one of: apiKeyId, userWorkspaceId, or agentId"
-msgstr ""
+msgstr "角色目标必须且只能有以下之一:apiKeyId、userWorkspaceId 或 agentId"
 
 #. js-lingui-id: oNYUjk
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-target-validator.service.ts
@@ -6036,7 +6036,7 @@ msgstr ""
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-target-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-role-target-validator.service.ts
 msgid "Role target not found"
-msgstr ""
+msgstr "未找到角色目标"
 
 #. js-lingui-id: gz6uii
 #: src/engine/metadata-modules/role/exceptions/role-target.exception.ts
@@ -6139,13 +6139,13 @@ msgstr "具有此通用标识符的行级权限谓词已存在"
 #. js-lingui-id: RiQMUh
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Running"
-msgstr ""
+msgstr "运行中"
 
 #. js-lingui-id: Tpm2G9
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Runs"
-msgstr ""
+msgstr "运行"
 
 #. js-lingui-id: +5kO8P
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -6155,7 +6155,7 @@ msgstr "星期六"
 #. js-lingui-id: cOh+MI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Screening"
-msgstr ""
+msgstr "初筛"
 
 #. js-lingui-id: eKi1df
 #: src/engine/core-modules/sdk-client/exceptions/sdk-client.exception.ts
@@ -6194,7 +6194,7 @@ msgstr "搜索向量"
 #. js-lingui-id: CTcVpP
 #: src/engine/core-modules/emailing-domain/drivers/exceptions/emailing-domain-driver.exception.ts
 msgid "Sending is currently suspended for this email domain."
-msgstr ""
+msgstr "此邮件域名当前已暂停发信。"
 
 #. js-lingui-id: hgvbYY
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -6204,7 +6204,7 @@ msgstr "九月"
 #. js-lingui-id: Tz0i8g
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #. js-lingui-id: e1k+No
 #: src/engine/core-modules/auth/auth.exception.ts
@@ -6237,7 +6237,7 @@ msgstr "名称为 \"{name}\" 的技能已存在"
 #. js-lingui-id: kIKb9e
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Social"
-msgstr ""
+msgstr "社交"
 
 #. js-lingui-id: RyE+Of
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-role-required-properties-are-defined.util.ts
@@ -6257,7 +6257,7 @@ msgstr "无法找到某些工作区成员资格。这些成员可能无法再访
 #. js-lingui-id: fWsBTs
 #: src/engine/core-modules/admin-panel/admin-panel.exception.ts
 msgid "Something went wrong. Please try again."
-msgstr ""
+msgstr "出了点问题。请重试。"
 
 #. js-lingui-id: Oa7nLQ
 #: src/engine/core-modules/application/application.exception.ts
@@ -6268,28 +6268,28 @@ msgstr "源通道不匹配。"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-front-component-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-front-component-validator.service.ts
 msgid "Source component path is invalid"
-msgstr ""
+msgstr "源组件路径无效"
 
 #. js-lingui-id: o0N9e6
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-logic-function-validator.service.ts
 msgid "Source handler path is invalid"
-msgstr ""
+msgstr "源处理函数路径无效"
 
 #. js-lingui-id: OmgwCE
 #: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-flat-field-metadata.util.ts
 msgid "Source object cannot be the target object"
-msgstr ""
+msgstr "源对象不能与目标对象相同"
 
 #. js-lingui-id: xqlr9R
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Spaces and comma"
-msgstr ""
+msgstr "空格与逗号"
 
 #. js-lingui-id: jAoGz1
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Spreadsheet"
-msgstr ""
+msgstr "电子表格"
 
 #. js-lingui-id: IP+RN5
 #: src/engine/core-modules/sso/sso.exception.ts
@@ -6304,7 +6304,7 @@ msgstr "SSO 已禁用。"
 #. js-lingui-id: 3PRxO3
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Stage"
-msgstr ""
+msgstr "阶段"
 
 #. js-lingui-id: 7XNKWU
 #: src/engine/metadata-modules/ai/ai.exception.ts
@@ -6320,7 +6320,7 @@ msgstr "标准对象无法删除"
 #. js-lingui-id: Xn/1qY
 #: src/engine/metadata-modules/permission-flag/permission-flag.exception.ts
 msgid "Standard permission flags cannot be modified."
-msgstr ""
+msgstr "标准权限标志无法修改。"
 
 #. js-lingui-id: H8j7uw
 #: src/engine/metadata-modules/skill/skill.exception.ts
@@ -6331,32 +6331,32 @@ msgstr "标准技能无法修改。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Start Date"
-msgstr ""
+msgstr "开始日期"
 
 #. js-lingui-id: amGzX5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Start of the week"
-msgstr ""
+msgstr "每周的起始日"
 
 #. js-lingui-id: RS0o7b
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "State"
-msgstr ""
+msgstr "州/省"
 
 #. js-lingui-id: nY8GL/
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "State of the workflow run"
-msgstr ""
+msgstr "工作流运行的状态"
 
 #. js-lingui-id: uAQUqI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #. js-lingui-id: Db4W3/
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Statuses"
-msgstr ""
+msgstr "状态"
 
 #. js-lingui-id: S7DRR+
 #: src/modules/workflow/common/utils/assert-workflow-statuses-not-set.ts
@@ -6371,22 +6371,22 @@ msgstr "步骤不是表单"
 #. js-lingui-id: nLBQ0Y
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Step logs"
-msgstr ""
+msgstr "步骤日志"
 
 #. js-lingui-id: 1D+4NY
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Stock market (Iframe)"
-msgstr ""
+msgstr "股票市场(Iframe)"
 
 #. js-lingui-id: NnvXp5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Stopped"
-msgstr ""
+msgstr "已停止"
 
 #. js-lingui-id: 161NCV
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Stopping"
-msgstr ""
+msgstr "正在停止"
 
 #. js-lingui-id: An2IAh
 #: src/engine/core-modules/workspace/workspace.exception.ts
@@ -6399,7 +6399,7 @@ msgstr "未找到子域名。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #. js-lingui-id: x0Vn7k
 #: src/engine/core-modules/billing/billing.exception.ts
@@ -6432,7 +6432,7 @@ msgstr "星期日"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 #. js-lingui-id: Bhmfez
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-object-metadata-system-fields-integrity.util.ts
@@ -6457,7 +6457,7 @@ msgstr "系统字段无法更新"
 #. js-lingui-id: aK2k19
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "System indexes are required for Twenty to work and cannot be deleted."
-msgstr ""
+msgstr "系统索引是 Twenty 运行所必需的,无法删除。"
 
 #. js-lingui-id: /ojawH
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-object-metadata-validator.service.ts
@@ -6478,7 +6478,7 @@ msgstr "系统对象无法直接更新。对于外观更改，请使用 standard
 #. js-lingui-id: HiXp3D
 #: src/engine/metadata-modules/page-layout-tab/constants/standard-page-layout-tab-titles.ts
 msgid "Tab 1"
-msgstr ""
+msgstr "标签页 1"
 
 #. js-lingui-id: 8UWeLh
 #: src/engine/metadata-modules/page-layout/exceptions/page-layout.exception.ts
@@ -6509,7 +6509,7 @@ msgstr "未找到用于复制小部件的选项卡。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Target"
-msgstr ""
+msgstr "目标"
 
 #. js-lingui-id: 5y3Wbw
 #: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
@@ -6554,57 +6554,57 @@ msgstr "对于 RECORD 类型，必须提供 targetRecordId 和 targetObjectMetad
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Task"
-msgstr ""
+msgstr "任务"
 
 #. js-lingui-id: kS+Ym6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task assignee"
-msgstr ""
+msgstr "任务负责人"
 
 #. js-lingui-id: 7fYQ6E
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task attachments"
-msgstr ""
+msgstr "任务附件"
 
 #. js-lingui-id: X8fs74
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task body"
-msgstr ""
+msgstr "任务正文"
 
 #. js-lingui-id: EPxYHS
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task due date"
-msgstr ""
+msgstr "任务截止日期"
 
 #. js-lingui-id: fUw1j+
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task record position"
-msgstr ""
+msgstr "任务记录位置"
 
 #. js-lingui-id: I6+0ph
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task status"
-msgstr ""
+msgstr "任务状态"
 
 #. js-lingui-id: WSiiWf
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Task Target"
-msgstr ""
+msgstr "任务目标"
 
 #. js-lingui-id: khGQLP
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task targets"
-msgstr ""
+msgstr "任务目标"
 
 #. js-lingui-id: 836FiO
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Task Targets"
-msgstr ""
+msgstr "任务目标"
 
 #. js-lingui-id: R+s8S+
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Task title"
-msgstr ""
+msgstr "任务标题"
 
 #. js-lingui-id: GtycJ/
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -6619,39 +6619,39 @@ msgstr "任务"
 #. js-lingui-id: HlDeG3
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Tasks assigned to the workspace member"
-msgstr ""
+msgstr "分配给该工作区成员的任务"
 
 #. js-lingui-id: M4rBti
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Tasks tied to the company"
-msgstr ""
+msgstr "关联到该公司的任务"
 
 #. js-lingui-id: /VaiDW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 msgid "Tasks tied to the contact"
-msgstr ""
+msgstr "关联到该联系人的任务"
 
 #. js-lingui-id: 1TfX9U
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Tasks tied to the opportunity"
-msgstr ""
+msgstr "关联到该商机的任务"
 
 #. js-lingui-id: V9OANc
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 msgid "TaskTarget record position"
-msgstr ""
+msgstr "任务目标记录位置"
 
 #. js-lingui-id: ZNDHIy
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 msgid "TaskTarget target"
-msgstr ""
+msgstr "任务目标的目标"
 
 #. js-lingui-id: pciKLT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-target-standard-flat-field-metadata.util.ts
 msgid "TaskTarget task"
-msgstr ""
+msgstr "任务目标的任务"
 
 #. js-lingui-id: 2kFzQB
 #: src/engine/core-modules/file/file.exception.ts
@@ -6661,7 +6661,7 @@ msgstr "临时文件无法下载。"
 #. js-lingui-id: 3WYP3r
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Tentative"
-msgstr ""
+msgstr "待定"
 
 #. js-lingui-id: M10it4
 #: src/utils/__test__/custom-exception.spec.ts
@@ -6679,12 +6679,12 @@ msgstr "测试用户友好型消息"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 #. js-lingui-id: 39/rgD
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Text Document"
-msgstr ""
+msgstr "文本文档"
 
 #. js-lingui-id: mQj02P
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-response-format.util.ts
@@ -6705,7 +6705,7 @@ msgstr "API 密钥没有分配有效角色。请检查您的 API 密钥配置。
 #: src/engine/core-modules/application/application.exception.ts
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 msgid "The app manifest declares an invalid server version requirement."
-msgstr ""
+msgstr "应用清单声明了无效的服务器版本要求。"
 
 #. js-lingui-id: MQn14a
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
@@ -6720,27 +6720,27 @@ msgstr "应用程序没有分配有效角色。请检查您的应用程序配置
 #. js-lingui-id: qnNFrW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "The company Linkedin account"
-msgstr ""
+msgstr "公司的领英账号"
 
 #. js-lingui-id: N31Pso
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "The company name"
-msgstr ""
+msgstr "公司名称"
 
 #. js-lingui-id: BHFCqB
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "The company Twitter/X account"
-msgstr ""
+msgstr "公司的 Twitter/X 账号"
 
 #. js-lingui-id: OBmU0K
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "The company website URL. We use this url to fetch the company icon"
-msgstr ""
+msgstr "公司网站 URL。我们用此 URL 获取公司图标"
 
 #. js-lingui-id: j6q6l+
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "The connection-provider manifest is missing required fields."
-msgstr ""
+msgstr "连接提供方清单缺少必填字段。"
 
 #. js-lingui-id: zGBDEH
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -6767,17 +6767,17 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "The creator of the record"
-msgstr ""
+msgstr "记录的创建者"
 
 #. js-lingui-id: bMyVOx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "The current statuses of the workflow versions"
-msgstr ""
+msgstr "工作流版本的当前状态"
 
 #. js-lingui-id: 0bo4Q0
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-standard-flat-field-metadata.util.ts
 msgid "The date the message was received"
-msgstr ""
+msgstr "消息接收的日期"
 
 #. js-lingui-id: nCXfEw
 #: src/engine/metadata-modules/role/role.service.ts
@@ -6802,7 +6802,7 @@ msgstr "该域名与您的电子邮件域不匹配。"
 #. js-lingui-id: 8h4mhq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "The executor of the workflow"
-msgstr ""
+msgstr "工作流的执行者"
 
 #. js-lingui-id: o6DGfJ
 #: src/engine/core-modules/workspace/services/workspace.service.ts
@@ -6827,12 +6827,12 @@ msgstr "工作流程的初始版本不能被删除"
 #. js-lingui-id: kdTB4e
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "The OAuth request is missing required parameters."
-msgstr ""
+msgstr "OAuth 请求缺少必填参数。"
 
 #. js-lingui-id: mCM5lH
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
 msgid "The OAuth state parameter is invalid or expired."
-msgstr ""
+msgstr "OAuth state 参数无效或已过期。"
 
 #. js-lingui-id: hx2IZ4
 #: src/engine/metadata-modules/object-permission/object-permission.service.ts
@@ -6843,7 +6843,7 @@ msgstr "您尝试设置权限的对象未找到。它可能已被删除。"
 #. js-lingui-id: DbWmKZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "The opportunity name"
-msgstr ""
+msgstr "商机名称"
 
 #. js-lingui-id: tl8xOZ
 #: src/utils/get-domain-name-by-email.ts
@@ -6880,7 +6880,7 @@ msgstr "无法找到要修改的角色。"
 #. js-lingui-id: eaW27s
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "The same column cannot appear twice in an index."
-msgstr ""
+msgstr "同一列不能在一个索引中出现两次。"
 
 #. js-lingui-id: vD3FVp
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
@@ -6891,7 +6891,7 @@ msgstr "您输入的服务器地址不被允许。请使用公共服务器地址
 #: src/engine/core-modules/application/application.exception.ts
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 msgid "The server's APP_VERSION is not a valid semver version. Self-hosted instances must configure a valid APP_VERSION."
-msgstr ""
+msgstr "服务器的 APP_VERSION 不是有效的 semver 版本。自托管实例必须配置有效的 APP_VERSION。"
 
 #. js-lingui-id: FOEWHl
 #: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name.util.ts
@@ -6901,42 +6901,42 @@ msgstr "对象的单数名称和复数名称不能相同"
 #. js-lingui-id: 9bYo5E
 #: src/engine/core-modules/messaging-webhooks/messaging-webhook.exception.ts
 msgid "The webhook request could not be authenticated."
-msgstr ""
+msgstr "无法对 webhook 请求进行身份验证。"
 
 #. js-lingui-id: 3nHyuH
 #: src/engine/core-modules/messaging-webhooks/messaging-webhook.exception.ts
 msgid "The webhook request could not be processed."
-msgstr ""
+msgstr "无法处理 webhook 请求。"
 
 #. js-lingui-id: 5N6QtE
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "The workflow automated trigger settings"
-msgstr ""
+msgstr "工作流自动触发器设置"
 
 #. js-lingui-id: SpKbfT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "The workflow automated trigger type"
-msgstr ""
+msgstr "工作流自动触发器类型"
 
 #. js-lingui-id: od0omS
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "The workflow last published version id"
-msgstr ""
+msgstr "工作流最后发布的版本 ID"
 
 #. js-lingui-id: /EdWx6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "The workflow name"
-msgstr ""
+msgstr "工作流名称"
 
 #. js-lingui-id: EhAsND
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "The workflow version name"
-msgstr ""
+msgstr "工作流版本名称"
 
 #. js-lingui-id: dhx13p
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "The workflow version status"
-msgstr ""
+msgstr "工作流版本状态"
 
 #. js-lingui-id: a6NBQe
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -6964,7 +6964,7 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "The workspace member who last updated the record"
-msgstr ""
+msgstr "最后更新该记录的工作区成员"
 
 #. js-lingui-id: mTxjri
 #: src/engine/core-modules/workspace-invitation/workspace-invitation.exception.ts
@@ -7010,12 +7010,12 @@ msgstr "此 API 密钥未分配角色。"
 #: src/engine/core-modules/application/application.exception.ts
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 msgid "This app requires a newer version of the Twenty server. Please upgrade your server or use a compatible app version."
-msgstr ""
+msgstr "此应用需要更高版本的 Twenty 服务器。请升级您的服务器或使用兼容的应用版本。"
 
 #. js-lingui-id: 99gsJ/
 #: src/engine/metadata-modules/index-metadata/utils/validate-no-duplicate-unique-index.util.ts
 msgid "This column is already marked as unique. Toggle the field's \"Unique\" off first if you want to manage the constraint here."
-msgstr ""
+msgstr "此列已被标记为唯一。如果您想在此管理该约束,请先关闭字段的 “唯一” 开关。"
 
 #. js-lingui-id: ADtO2E
 #: src/engine/twenty-orm/exceptions/twenty-orm.exception.ts
@@ -7055,7 +7055,7 @@ msgstr "该电子邮件已被使用。"
 #. js-lingui-id: mjE4RD
 #: src/engine/metadata-modules/ai/ai-agent-monitor/services/agent-turn-grader.service.ts
 msgid "This evaluation target could not be found."
-msgstr ""
+msgstr "未找到此评估目标。"
 
 #. js-lingui-id: hsi+jf
 #: src/engine/core-modules/workspace/workspace.exception.ts
@@ -7076,12 +7076,12 @@ msgstr "此字段名称不可用。"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-permission-validator.service.ts
 msgid "This field permission is already set for the role"
-msgstr ""
+msgstr "该角色的此字段权限已设置"
 
 #. js-lingui-id: 7f5dRA
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "This index does not exist or has already been deleted."
-msgstr ""
+msgstr "此索引不存在或已被删除。"
 
 #. js-lingui-id: 6Z/zIt
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -7203,7 +7203,7 @@ msgstr "此角色无法修改，因为它是系统角色。只有自定义角色
 #. js-lingui-id: nzveUr
 #: src/engine/metadata-modules/object-permission/field-permission/__tests__/field-permissions.service.spec.ts
 msgid "This role cannot be modified."
-msgstr ""
+msgstr "此角色无法修改。"
 
 #. js-lingui-id: nFIPim
 #: src/engine/core-modules/workspace/workspace.exception.ts
@@ -7233,27 +7233,27 @@ msgstr "此变量只能通过环境进行设置。"
 #. js-lingui-id: Y5Fzhi
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 msgid "This version is not higher than the currently deployed version. Please bump the version in package.json before deploying again."
-msgstr ""
+msgstr "此版本不高于当前已部署的版本。请在再次部署前提升 package.json 中的版本号。"
 
 #. js-lingui-id: ZXnasf
 #: src/engine/core-modules/application/application.exception.ts
 msgid "This version of the application is already installed in this workspace."
-msgstr ""
+msgstr "此版本的应用已安装在此工作区中。"
 
 #. js-lingui-id: e66y2Z
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Thread"
-msgstr ""
+msgstr "线程"
 
 #. js-lingui-id: Zl0BJl
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Thread External Id"
-msgstr ""
+msgstr "线程外部 ID"
 
 #. js-lingui-id: RSSbWN
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-channel-message-association-standard-flat-field-metadata.util.ts
 msgid "Thread id from the messaging provider"
-msgstr ""
+msgstr "来自消息服务提供方的线程 ID"
 
 #. js-lingui-id: kkDQ8m
 #: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
@@ -7263,12 +7263,12 @@ msgstr "星期四"
 #. js-lingui-id: n9nSNJ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Time format"
-msgstr ""
+msgstr "时间格式"
 
 #. js-lingui-id: Mz2JN2
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Time zone"
-msgstr ""
+msgstr "时区"
 
 #. js-lingui-id: cklVjM
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
@@ -7287,57 +7287,57 @@ msgstr "时间轴"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Timeline Activities"
-msgstr ""
+msgstr "时间线活动"
 
 #. js-lingui-id: fqKMpF
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Timeline Activities linked to the company"
-msgstr ""
+msgstr "关联到该公司的时间线活动"
 
 #. js-lingui-id: CNev+0
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-dashboard-standard-flat-field-metadata.util.ts
 msgid "Timeline activities linked to the dashboard"
-msgstr ""
+msgstr "关联到该仪表盘的时间线活动"
 
 #. js-lingui-id: 4/UzU5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-note-standard-flat-field-metadata.util.ts
 msgid "Timeline Activities linked to the note."
-msgstr ""
+msgstr "关联到该备注的时间线活动。"
 
 #. js-lingui-id: p6feIz
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-opportunity-standard-flat-field-metadata.util.ts
 msgid "Timeline Activities linked to the opportunity."
-msgstr ""
+msgstr "关联到该商机的时间线活动。"
 
 #. js-lingui-id: yvPwuF
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Timeline activities linked to the run"
-msgstr ""
+msgstr "关联到该运行的时间线活动"
 
 #. js-lingui-id: q96UvB
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "Timeline Activities linked to the task."
-msgstr ""
+msgstr "关联到该任务的时间线活动。"
 
 #. js-lingui-id: N9HMa/
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Timeline activities linked to the version"
-msgstr ""
+msgstr "关联到该版本的时间线活动"
 
 #. js-lingui-id: B1CYKX
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Timeline activities linked to the workflow"
-msgstr ""
+msgstr "关联到该工作流的时间线活动"
 
 #. js-lingui-id: K/kU4E
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Timeline Activity"
-msgstr ""
+msgstr "时间线活动"
 
 #. js-lingui-id: HSkSOA
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-timeline-activity-standard-flat-field-metadata.util.ts
 msgid "Timeline activity record position"
-msgstr ""
+msgstr "时间线活动记录位置"
 
 #. js-lingui-id: MHrjPM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
@@ -7346,17 +7346,17 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #. js-lingui-id: /jQctM
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "To"
-msgstr ""
+msgstr "收件人"
 
 #. js-lingui-id: rZ9HZq
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-task-standard-flat-field-metadata.util.ts
 msgid "To do"
-msgstr ""
+msgstr "待办"
 
 #. js-lingui-id: /ObxXq
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -7366,7 +7366,7 @@ msgstr "找到过多的管理员候选人。"
 #. js-lingui-id: qSInGy
 #: src/engine/core-modules/tool/tools/email-tool/exceptions/email-tool.exception.ts
 msgid "Too many recipients."
-msgstr ""
+msgstr "收件人过多。"
 
 #. js-lingui-id: MYdvBz
 #: src/engine/api/graphql/workspace-query-runner/workspace-query-runner.exception.ts
@@ -7387,7 +7387,7 @@ msgstr "请求过多。请稍后再试。"
 #. js-lingui-id: mfqtz7
 #: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
 msgid "Too many workspace invitations sent. Please try again later."
-msgstr ""
+msgstr "发送的工作区邀请过多。请稍后再试。"
 
 #. js-lingui-id: tEb/hR
 #: src/modules/dashboard/chart-data/exceptions/chart-data.exception.ts
@@ -7484,13 +7484,13 @@ msgstr "不支持的页面布局小部件类型 {widgetType}"
 #. js-lingui-id: s+FRCn
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Untitled Rich Text"
-msgstr ""
+msgstr "未命名富文本"
 
 #. js-lingui-id: 0gY5lO
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-standard-flat-field-metadata.util.ts
 msgid "Update DateTime"
-msgstr ""
+msgstr "更新时间"
 
 #. js-lingui-id: lHCFXi
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -7523,7 +7523,7 @@ msgstr "更新字段限制仅适用于可更新的对象。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Updated by"
-msgstr ""
+msgstr "更新者"
 
 #. js-lingui-id: r5C2wB
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-metadata-validator.service.ts
@@ -7566,7 +7566,7 @@ msgstr "用户没有权限。"
 #. js-lingui-id: YFciqL
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "User Email"
-msgstr ""
+msgstr "用户邮箱"
 
 #. js-lingui-id: EHZMfR
 #: src/utils/__test__/custom-exception.spec.ts
@@ -7577,7 +7577,7 @@ msgstr "用户友好型错误消息"
 #. js-lingui-id: d1BTW8
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "User Id"
-msgstr ""
+msgstr "用户 ID"
 
 #. js-lingui-id: NJT8W8
 #: src/modules/blocklist/query-hooks/blocklist-update-one.pre-query.hook.ts
@@ -7608,7 +7608,7 @@ msgstr "找不到用户。请检查电子邮件或 ID。"
 #. js-lingui-id: 4juE7s
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "User time zone"
-msgstr ""
+msgstr "用户时区"
 
 #. js-lingui-id: VkcC68
 #: src/engine/core-modules/auth/services/auth.service.ts
@@ -7639,27 +7639,27 @@ msgstr "值必须是 UPPER_CASE 并遵循 snake_case \"{sanitizedValue}\""
 #. js-lingui-id: 7aatUy
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Version status"
-msgstr ""
+msgstr "版本状态"
 
 #. js-lingui-id: CdQeU7
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Version steps"
-msgstr ""
+msgstr "版本步骤"
 
 #. js-lingui-id: PGMPIi
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Version trigger"
-msgstr ""
+msgstr "版本触发器"
 
 #. js-lingui-id: IYNSdp
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 
 #. js-lingui-id: vSJd18
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-attachment-standard-flat-field-metadata.util.ts
 msgid "Video"
-msgstr ""
+msgstr "视频"
 
 #. js-lingui-id: HhN1Bv
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-view-validator.service.ts
@@ -7914,7 +7914,7 @@ msgstr "在插入或更新后未找到视图"
 #. js-lingui-id: RAcTQ1
 #: src/engine/metadata-modules/view/services/view-widget-upsert.service.ts
 msgid "View not found for widget"
-msgstr ""
+msgstr "未找到小组件对应的视图"
 
 #. js-lingui-id: yheEin
 #: src/engine/metadata-modules/view/exceptions/flat-view.exception.ts
@@ -8046,7 +8046,7 @@ msgstr "我们无法连接到您的外发电子邮件服务器。请检查您的
 #. js-lingui-id: jNr0+j
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
 msgid "We couldn't find any calendars on your CalDAV server. Please make sure your account has at least one calendar."
-msgstr ""
+msgstr "我们在您的 CalDAV 服务器上未找到任何日历。请确保您的账户至少有一个日历。"
 
 #. js-lingui-id: v8UNEA
 #: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
@@ -8130,7 +8130,7 @@ msgstr "小部件类型 VIEW 尚不支持。"
 #. js-lingui-id: qRILxq
 #: src/engine/metadata-modules/view-field-group/constants/standard-view-field-group-names.ts
 msgid "Work"
-msgstr ""
+msgstr "工作"
 
 #. js-lingui-id: bLt/0J
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -8139,22 +8139,22 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 #: src/engine/metadata-modules/page-layout-widget/constants/standard-page-layout-widget-titles.ts
 msgid "Workflow"
-msgstr ""
+msgstr "工作流"
 
 #. js-lingui-id: Fd5Tey
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Automated Trigger"
-msgstr ""
+msgstr "工作流自动触发器"
 
 #. js-lingui-id: 9h8c8+
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Automated Triggers"
-msgstr ""
+msgstr "工作流自动触发器"
 
 #. js-lingui-id: hdtWQn
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Workflow automated triggers linked to the workflow."
-msgstr ""
+msgstr "关联到该工作流的工作流自动触发器。"
 
 #. js-lingui-id: KSK8fH
 #: src/modules/workflow/common/exceptions/workflow-version-edge.exception.ts
@@ -8164,7 +8164,7 @@ msgstr "未找到工作流边。"
 #. js-lingui-id: vwSkSW
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow linked to the run."
-msgstr ""
+msgstr "关联到该运行的工作流。"
 
 #. js-lingui-id: R67jts
 #: src/modules/workflow/workflow-trigger/exceptions/workflow-trigger.exception.ts
@@ -8174,7 +8174,7 @@ msgstr "未找到工作流。"
 #. js-lingui-id: y9tnFx
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Workflow record position"
-msgstr ""
+msgstr "工作流记录位置"
 
 #. js-lingui-id: ysb9m+
 #: src/modules/workflow/workflow-runner/exceptions/workflow-run.exception.ts
@@ -8184,7 +8184,7 @@ msgstr "未找到工作流根步骤。"
 #. js-lingui-id: 5vIcqC
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Run"
-msgstr ""
+msgstr "工作流运行"
 
 #. js-lingui-id: TgOSaQ
 #: src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
@@ -8195,13 +8195,13 @@ msgstr "工作流运行在当前状态下无法停止"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow run ended at"
-msgstr ""
+msgstr "工作流运行结束于"
 
 #. js-lingui-id: NKQlas
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow run enqueued at"
-msgstr ""
+msgstr "工作流运行入队于"
 
 #. js-lingui-id: AzylSS
 #: src/modules/workflow/workflow-runner/exceptions/workflow-run.exception.ts
@@ -8216,34 +8216,34 @@ msgstr "未找到工作流运行。"
 #. js-lingui-id: IUaK6s
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow run position"
-msgstr ""
+msgstr "工作流运行位置"
 
 #. js-lingui-id: zaN7tH
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow run started at"
-msgstr ""
+msgstr "工作流运行开始于"
 
 #. js-lingui-id: 1TU2A8
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow run status"
-msgstr ""
+msgstr "工作流运行状态"
 
 #. js-lingui-id: u6DF/V
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Runs"
-msgstr ""
+msgstr "工作流运行"
 
 #. js-lingui-id: 9nOy7k
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Workflow runs linked to the version."
-msgstr ""
+msgstr "关联到该版本的工作流运行。"
 
 #. js-lingui-id: c37F3j
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Workflow runs linked to the workflow."
-msgstr ""
+msgstr "关联到该工作流的工作流运行。"
 
 #. js-lingui-id: dD9Vpa
 #: src/modules/workflow/workflow-executor/exceptions/workflow-step-executor.exception.ts
@@ -8254,12 +8254,12 @@ msgstr "未找到工作流步骤。"
 #. js-lingui-id: lTXctu
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow version"
-msgstr ""
+msgstr "工作流版本"
 
 #. js-lingui-id: +wYPET
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Version"
-msgstr ""
+msgstr "工作流版本"
 
 #. js-lingui-id: n4/IOE
 #: src/modules/workflow/common/utils/assert-workflow-version-has-steps.ts
@@ -8285,7 +8285,7 @@ msgstr "对于工作流触发项，必须提供工作流版本"
 #. js-lingui-id: CocTJJ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgid "Workflow version linked to the run."
-msgstr ""
+msgstr "关联到该运行的工作流版本。"
 
 #. js-lingui-id: LrPIBF
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
@@ -8301,37 +8301,37 @@ msgstr "对于此项类型，不得设置工作流版本"
 #. js-lingui-id: 9l+pJT
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "Workflow version position"
-msgstr ""
+msgstr "工作流版本位置"
 
 #. js-lingui-id: OCyhkn
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflow Versions"
-msgstr ""
+msgstr "工作流版本"
 
 #. js-lingui-id: 018fP9
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-standard-flat-field-metadata.util.ts
 msgid "Workflow versions linked to the workflow."
-msgstr ""
+msgstr "关联到该工作流的工作流版本。"
 
 #. js-lingui-id: NBReV8
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "WorkflowAutomatedTrigger record position"
-msgstr ""
+msgstr "工作流自动触发器记录位置"
 
 #. js-lingui-id: 96bCgZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-automated-trigger-standard-flat-field-metadata.util.ts
 msgid "WorkflowAutomatedTrigger workflow"
-msgstr ""
+msgstr "工作流自动触发器的工作流"
 
 #. js-lingui-id: woYYQq
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workflows"
-msgstr ""
+msgstr "工作流"
 
 #. js-lingui-id: b4kire
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-version-standard-flat-field-metadata.util.ts
 msgid "WorkflowVersion workflow"
-msgstr ""
+msgstr "工作流版本的工作流"
 
 #. js-lingui-id: m34s12
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-command-menu-item-validator.service.ts
@@ -8358,7 +8358,7 @@ msgstr "未找到工作区 {workspaceId}。"
 #. js-lingui-id: lNgTSN
 #: src/engine/core-modules/billing/billing.exception.ts
 msgid "Workspace cannot be deleted: subscription is not yet canceled."
-msgstr ""
+msgstr "工作区无法删除:订阅尚未取消。"
 
 #. js-lingui-id: XsSVrR
 #: src/engine/core-modules/auth/services/sign-in-up.service.ts
@@ -8384,12 +8384,12 @@ msgstr "工作空间尚未准备好迎接新成员"
 #. js-lingui-id: iN7doz
 #: src/engine/core-modules/auth/services/sign-in-up.service.ts
 msgid "Workspace limit reached. A valid enterprise key is required to create more workspaces."
-msgstr ""
+msgstr "已达到工作区数量上限。创建更多工作区需要有效的企业版密钥。"
 
 #. js-lingui-id: CbGxon
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-participant-standard-flat-field-metadata.util.ts
 msgid "Workspace member"
-msgstr ""
+msgstr "工作区成员"
 
 #. js-lingui-id: qc38qR
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
@@ -8398,12 +8398,12 @@ msgstr ""
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-event-participant-standard-flat-field-metadata.util.ts
 msgid "Workspace Member"
-msgstr ""
+msgstr "工作区成员"
 
 #. js-lingui-id: R1S9pO
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Workspace member avatar"
-msgstr ""
+msgstr "工作区成员头像"
 
 #. js-lingui-id: SWTQfb
 #: src/modules/blocklist/blocklist-validation-manager/services/blocklist-validation.service.ts
@@ -8413,7 +8413,7 @@ msgstr "无法更新工作区成员。"
 #. js-lingui-id: 5VCX7o
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Workspace member name"
-msgstr ""
+msgstr "工作区成员名称"
 
 #. js-lingui-id: rnnLQA
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
@@ -8423,12 +8423,12 @@ msgstr "未找到工作区成员。"
 #. js-lingui-id: NiUpuN
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Workspace member position"
-msgstr ""
+msgstr "工作区成员位置"
 
 #. js-lingui-id: YCAEr+
 #: src/engine/workspace-manager/twenty-standard-application/utils/object-metadata/create-standard-flat-object-metadata.util.ts
 msgid "Workspace Members"
-msgstr ""
+msgstr "工作区成员"
 
 #. js-lingui-id: JYc1v3
 #: src/engine/core-modules/user-workspace/guards/upload-profile-picture-permission.guard.ts
@@ -8459,13 +8459,13 @@ msgstr "未找到工作区。"
 #. js-lingui-id: mMbNCo
 #: src/engine/core-modules/admin-panel/services/admin-panel-user-lookup.service.ts
 msgid "Workspace not found. Please check the ID."
-msgstr ""
+msgstr "未找到工作区。请检查该 ID。"
 
 #. js-lingui-id: osscRx
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-runner/exceptions/workspace-migration-runner.exception.ts
 #: src/engine/workspace-datasource/exceptions/workspace-datasource.exception.ts
 msgid "Workspace schema changes are temporarily locked."
-msgstr ""
+msgstr "工作区架构变更已临时锁定。"
 
 #. js-lingui-id: 7wxAZI
 #: src/engine/twenty-orm/exceptions/twenty-orm.exception.ts
@@ -8506,12 +8506,12 @@ msgstr "需要WorkspaceId才能创建视图。"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 msgid "WorkspaceMember"
-msgstr ""
+msgstr "工作区成员"
 
 #. js-lingui-id: 9RXJsb
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "Would not reach this"
-msgstr ""
+msgstr "不应到达此处"
 
 #. js-lingui-id: VddeYt
 #: src/engine/core-modules/file-storage/interfaces/file-storage-exception.ts
@@ -8532,12 +8532,12 @@ msgstr "密码错误."
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-person-standard-flat-field-metadata.util.ts
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #. js-lingui-id: eTlYxu
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
 msgid "Year First"
-msgstr ""
+msgstr "年在前"
 
 #. js-lingui-id: l75CjT
 #: src/modules/dashboard/chart-data/utils/format-dimension-value.util.ts
@@ -8552,7 +8552,7 @@ msgstr "您无权执行此操作。"
 #. js-lingui-id: TRUO3G
 #: src/engine/metadata-modules/index-metadata/services/index-metadata.service.ts
 msgid "You can have at most {MAX_CUSTOM_INDEXES_PER_OBJECT} custom indexes per object. Delete one before creating a new one."
-msgstr ""
+msgstr "每个对象最多可有 {MAX_CUSTOM_INDEXES_PER_OBJECT} 个自定义索引。请先删除一个,再创建新的。"
 
 #. js-lingui-id: 84/Dko
 #: src/engine/api/common/common-query-runners/common-merge-many-query-runner.service.ts
@@ -8567,7 +8567,7 @@ msgstr "一次只能更新一条包含文件字段的记录。"
 #. js-lingui-id: 4ysDL0
 #: src/engine/twenty-orm/repository/workspace-update-query-builder.ts
 msgid "You can only update up to {QUERY_MAX_RECORDS} records at once."
-msgstr ""
+msgstr "一次最多只能更新 {QUERY_MAX_RECORDS} 条记录。"
 
 #. js-lingui-id: 1SQnFB
 #: src/engine/metadata-modules/role/role.resolver.ts
@@ -8671,7 +8671,7 @@ msgstr "您无权更新这些字段：{fieldsList}。请联系您的工作区管
 #. js-lingui-id: ZCNAGE
 #: src/engine/core-modules/user/user.resolver.ts
 msgid "You do not have permission to update this workspace member."
-msgstr ""
+msgstr "您没有权限更新此工作区成员。"
 
 #. js-lingui-id: RZzKii
 #: src/engine/metadata-modules/navigation-menu-item/services/navigation-menu-item-access.service.ts
@@ -8734,7 +8734,7 @@ msgstr "无法找到您在此工作区中的角色。请联系您的工作区管
 #. js-lingui-id: vPccnr
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgid "Your team member responsible for managing the company account"
-msgstr ""
+msgstr "负责管理该公司客户的团队成员"
 
 #. js-lingui-id: ej/tZF
 #: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
