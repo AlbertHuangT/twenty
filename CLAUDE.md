@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Twenty is an open-source CRM built with modern technologies in a monorepo structure. The codebase is organized as an Nx workspace with multiple packages.
 
+**Toolchain**: Node `^24.5.0` (see `.nvmrc` → 24.16.0) and Yarn 4 (`yarn@4.13.0`). npm is blocked — always use `yarn` / `npx nx`, never `npm install`.
+
 ## Key Commands
 
 ### Development
