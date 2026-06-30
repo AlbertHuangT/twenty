@@ -11,7 +11,7 @@ export const NAVIGATION_COMMAND_UUID_NAMESPACE =
   'b31830da-2ae0-48eb-a915-12fa4ab96dd3';
 
 export const NAVIGATION_INTERPOLATED_LABEL =
-  'Go to ${navigateToObjectMetadataItem.labelPlural}';
+  '前往${navigateToObjectMetadataItem.labelPlural}';
 export const NAVIGATION_INTERPOLATED_SHORT_LABEL =
   '${navigateToObjectMetadataItem.labelPlural}';
 export const NAVIGATION_INTERPOLATED_ICON =

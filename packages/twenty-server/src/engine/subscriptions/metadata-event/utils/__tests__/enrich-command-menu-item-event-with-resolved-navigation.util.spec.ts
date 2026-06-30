@@ -78,7 +78,7 @@ describe('enrichCommandMenuItemEventWithResolvedNavigation', () => {
       i18nInstance: mockI18nInstance,
     });
 
-    expect(result.label).toBe('Go to People');
+    expect(result.label).toBe('前往People');
     expect(result.shortLabel).toBe('People');
     expect(result.icon).toBe('IconUser');
   });
@@ -165,7 +165,7 @@ describe('enrichCommandMenuItemEventWithResolvedNavigation', () => {
       i18nInstance: mockI18nInstance,
     });
 
-    expect(result.label).toBe('Go to Contacts');
+    expect(result.label).toBe('前往Contacts');
     expect(result.shortLabel).toBe('Contacts');
     expect(result.icon).toBe('IconContacts');
   });
@@ -188,7 +188,7 @@ describe('enrichCommandMenuItemEventWithResolvedNavigation', () => {
       i18nInstance: mockI18nInstance,
     });
 
-    expect(result.label).toBe('Go to Companies');
+    expect(result.label).toBe('前往Companies');
     expect(result.shortLabel).toBe('Companies');
     expect(result.icon).toBe('IconBuilding');
   });

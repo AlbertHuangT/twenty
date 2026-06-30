@@ -18338,3 +18338,359 @@ msgstr "您的工作区没有有效的订阅。请联系您的管理员。"
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
 msgid "Your workspace will be disabled"
 msgstr "您的工作区将被禁用"
+
+#. js-lingui-id: RhlGMC
+msgid "{0} duplicate"
+msgstr "{0} 个重复"
+
+#. js-lingui-id: 2J/UDi
+msgid "{0} in this list — {1} sendable"
+msgstr "此列表中有 {0} 个 — {1} 个可发送"
+
+#. js-lingui-id: n+qCAX
+msgid "{0} of {1}"
+msgstr "第 {0} 个，共 {1} 个"
+
+#. js-lingui-id: aV0Idt
+msgid "{0} opted out of this group"
+msgstr "{0} 已退出此分组"
+
+#. js-lingui-id: jgzXWG
+msgid "{0} unsubscribed from everything"
+msgstr "{0} 已退订全部"
+
+#. js-lingui-id: hDqV4n
+msgid "{0} without email"
+msgstr "{0} 个无邮箱"
+
+#. js-lingui-id: QasfZV
+msgid "Add email channel"
+msgstr "添加邮件通道"
+
+#. js-lingui-id: Y4ND/s
+msgid "Admin panel"
+msgstr "管理面板"
+
+#. js-lingui-id: 59Pnaf
+msgid "Administrator"
+msgstr "管理员"
+
+#. js-lingui-id: kZ+yJK
+msgid "Administrators"
+msgstr "管理员"
+
+#. js-lingui-id: imy3d6
+msgid "An error occurred while loading this widget."
+msgstr "加载此小组件时出错。"
+
+#. js-lingui-id: uBHDTd
+msgid "Any {0} field"
+msgstr "任意 {0} 字段"
+
+#. js-lingui-id: kJGEET
+msgid "at {remainingTimes} and {0}"
+msgstr "在 {remainingTimes} 和 {0}"
+
+#. js-lingui-id: FsH56Q
+msgid "at minutes {remainingValues} and {0}"
+msgstr "在第 {remainingValues} 和 {0} 分钟"
+
+#. js-lingui-id: cWT/md
+msgid "Back to {text}"
+msgstr "返回{text}"
+
+#. js-lingui-id: +7ru4D
+msgid "Campaign queued to {queuedCount} recipient(s)"
+msgstr "群发已加入队列，发送给 {queuedCount} 位收件人"
+
+#. js-lingui-id: 4VDW1B
+msgid "Campaign queued to {queuedCount} recipient(s), {skippedCount} skipped"
+msgstr "群发已加入队列，发送给 {queuedCount} 位收件人，跳过 {skippedCount} 位"
+
+#. js-lingui-id: tNVdXs
+msgid "Configure how long audit logs are retained"
+msgstr "配置审计日志的保留时长"
+
+#. js-lingui-id: BdDgRO
+msgid "Delete email channel"
+msgstr "删除邮件通道"
+
+#. js-lingui-id: Fb+EUd
+msgid "Disable impersonation"
+msgstr "禁用模拟登录"
+
+#. js-lingui-id: EaZ2fV
+msgid "Done"
+msgstr "完成"
+
+#. js-lingui-id: yVvNWT
+msgid "Email Channels"
+msgstr "邮件通道"
+
+#. js-lingui-id: ZqLxJb
+msgid "Emailing is in demo mode"
+msgstr "邮件功能处于演示模式"
+
+#. js-lingui-id: k4ebod
+msgid "Emails are logged, not sent. Sending requires the AWS SES driver with an Enterprise license, or Twenty Cloud."
+msgstr "邮件仅记录、不发送。发送需要使用带企业版授权的 AWS SES 驱动，或 Twenty Cloud。"
+
+#. js-lingui-id: 2+VVdB
+msgid "Enable impersonation"
+msgstr "启用模拟登录"
+
+#. js-lingui-id: muvag0
+msgid "Enter offset"
+msgstr "输入偏移量"
+
+#. js-lingui-id: huu0uz
+msgid "Enter your two-factor authentication code to confirm."
+msgstr "请输入你的双重验证码以确认。"
+
+#. js-lingui-id: dmnnAf
+msgid "Error parsing additional phones: {0}"
+msgstr "解析其它电话时出错：{0}"
+
+#. js-lingui-id: cNgXA1
+msgid "Event type"
+msgstr "事件类型"
+
+#. js-lingui-id: hAjj7Z
+msgid "Failed to create email channel. Email channels may not be configured on this server."
+msgstr "创建邮件通道失败。此服务器可能未配置邮件通道。"
+
+#. js-lingui-id: QKRQRj
+msgid "Failed to delete email channel."
+msgstr "删除邮件通道失败。"
+
+#. js-lingui-id: qjWzv3
+msgid "Failed to load server administrators."
+msgstr "加载服务器管理员失败。"
+
+#. js-lingui-id: QhR/fG
+msgid "Failed to send campaign"
+msgstr "发送群发失败"
+
+#. js-lingui-id: BYeuJO
+msgid "Failed to update server administrator access."
+msgstr "更新服务器管理员权限失败。"
+
+#. js-lingui-id: emdrQg
+msgid "File no longer exists - {label}"
+msgstr "文件已不存在 - {label}"
+
+#. js-lingui-id: mRU1Kl
+msgid "full admin panel access"
+msgstr "完整管理面板权限"
+
+#. js-lingui-id: wPqCHw
+msgid "full server access"
+msgstr "完整服务器权限"
+
+#. js-lingui-id: hpN2jH
+msgid "Grant access"
+msgstr "授予权限"
+
+#. js-lingui-id: gIduu0
+msgid "Grant admin panel access"
+msgstr "授予管理面板权限"
+
+#. js-lingui-id: 6zsOPE
+msgid "Grant full access"
+msgstr "授予完整权限"
+
+#. js-lingui-id: pyPPdl
+msgid "Hide group {0}"
+msgstr "隐藏分组 {0}"
+
+#. js-lingui-id: CdNihL
+msgid "impersonation"
+msgstr "模拟登录"
+
+#. js-lingui-id: BZVRVw
+msgid "Impersonation"
+msgstr "模拟登录"
+
+#. js-lingui-id: hq5KtG
+msgid "Invalid configuration: {errorMessage}"
+msgstr "配置无效：{errorMessage}"
+
+#. js-lingui-id: T3+yFw
+msgid "Logs require ClickHouse to be configured. Please contact your administrator."
+msgstr "日志功能需要配置 ClickHouse。请联系你的管理员。"
+
+#. js-lingui-id: C0x/tw
+msgid "Match {0} ({unmatchedCount} Unmatched)"
+msgstr "匹配 {0}（{unmatchedCount} 个未匹配）"
+
+#. js-lingui-id: fesrUo
+msgid "New Campaign"
+msgstr "新建群发"
+
+#. js-lingui-id: 22V8aW
+msgid "New Email Channel"
+msgstr "新建邮件通道"
+
+#. js-lingui-id: o0adWx
+msgid "New field"
+msgstr "新建字段"
+
+#. js-lingui-id: mx8II0
+msgid "No access"
+msgstr "无权限"
+
+#. js-lingui-id: 3AmSyT
+msgid "No recipients to send to ({skippedCount} skipped)"
+msgstr "没有可发送的收件人（跳过 {skippedCount} 位）"
+
+#. js-lingui-id: VOv69H
+msgid "No server administrators found."
+msgstr "未找到服务器管理员。"
+
+#. js-lingui-id: vDAhaj
+msgid "No targets available"
+msgstr "没有可用目标"
+
+#. js-lingui-id: S0jMFL
+msgid "Number of records to skip. Combine with Limit to page through results."
+msgstr "要跳过的记录数。与“限制”配合可分页浏览结果。"
+
+#. js-lingui-id: RufDRa
+msgid "Object type"
+msgstr "对象类型"
+
+#. js-lingui-id: saHo48
+msgid "Offset"
+msgstr "偏移量"
+
+#. js-lingui-id: xuDuXt
+msgid "Offset cannot be negative."
+msgstr "偏移量不能为负。"
+
+#. js-lingui-id: lv0YAZ
+msgid "on the {remainingDays} and {0} of the month"
+msgstr "在每月的 {remainingDays} 和 {0}"
+
+#. js-lingui-id: 5YalTt
+msgid "Only application logs are available on your current plan. Other log types require an Enterprise subscription."
+msgstr "当前套餐仅提供应用日志。其它日志类型需要企业版订阅。"
+
+#. js-lingui-id: W5gDnw
+msgid "only in {remainingMonths} and {0}"
+msgstr "仅在 {remainingMonths} 和 {0}"
+
+#. js-lingui-id: 5kXs7Z
+msgid "only on {remainingDays} and {0}"
+msgstr "仅在 {remainingDays} 和 {0}"
+
+#. js-lingui-id: qq40Cu
+msgid "Outbound mail from this channel is sent through this domain. It must be verified before email can be delivered."
+msgstr "此通道的外发邮件通过该域名发送。必须先验证该域名才能投递邮件。"
+
+#. js-lingui-id: JfMi0U
+msgid "Page name"
+msgstr "页面名称"
+
+#. js-lingui-id: hY5Lp6
+msgid "Pause"
+msgstr "暂停"
+
+#. js-lingui-id: bnldTT
+msgid "Period"
+msgstr "周期"
+
+#. js-lingui-id: /6mOAv
+msgid "Remote"
+msgstr "远程"
+
+#. js-lingui-id: qykt24
+msgid "Revoke access"
+msgstr "撤销权限"
+
+#. js-lingui-id: SLKUNs
+msgid "Revoke admin panel access"
+msgstr "撤销管理面板权限"
+
+#. js-lingui-id: gVWjQ+
+msgid "Select a sender"
+msgstr "选择发件人"
+
+#. js-lingui-id: 8vwkKo
+msgid "Send campaign"
+msgstr "发送群发"
+
+#. js-lingui-id: wfQ9K4
+msgid "Sending domain"
+msgstr "发送域名"
+
+#. js-lingui-id: vq+xNQ
+msgid "Server access"
+msgstr "服务器权限"
+
+#. js-lingui-id: //9xMB
+msgid "Server administrator access updated."
+msgstr "服务器管理员权限已更新。"
+
+#. js-lingui-id: Hashqf
+msgid "Show group {0}"
+msgstr "显示分组 {0}"
+
+#. js-lingui-id: C8EiUh
+msgid "Something went wrong while loading logs. Please try again."
+msgstr "加载日志时出错。请重试。"
+
+#. js-lingui-id: Btfp/9
+msgid "The unsubscribe group this email belongs to. Recipients who opted out of it are skipped, and the unsubscribe link is scoped to it."
+msgstr "此邮件所属的退订分组。已退出该分组的收件人会被跳过，退订链接也仅作用于该分组。"
+
+#. js-lingui-id: 6wE7xb
+msgid "This action cannot be undone. This member will be removed and unassigned from their records. Their synced emails and calendars will stop syncing and be reassigned to you."
+msgstr "此操作无法撤销。该成员将被移除并从其记录中取消分配。其已同步的邮件和日历将停止同步并重新分配给你。"
+
+#. js-lingui-id: JlE6Y/
+msgid "This action cannot be undone. Your membership will be removed; synced emails and calendars stay with the workspace."
+msgstr "此操作无法撤销。你的成员身份将被移除；已同步的邮件和日历将保留在工作区中。"
+
+#. js-lingui-id: FjwSRn
+msgid "This rule filters on one or more deleted fields that should be removed."
+msgstr "此规则使用了一个或多个已删除的字段进行筛选，应将其移除。"
+
+#. js-lingui-id: seE5Re
+msgid "This will grant {0} to {userLabel}."
+msgstr "这将向 {userLabel} 授予{0}。"
+
+#. js-lingui-id: DCD4Rt
+msgid "This will revoke {0} for {userLabel}."
+msgstr "这将撤销 {userLabel} 的{0}。"
+
+#. js-lingui-id: ognuyt
+msgid "Unsubscribe group"
+msgstr "退订分组"
+
+#. js-lingui-id: 4dkvRe
+msgid "Untitled file"
+msgstr "未命名文件"
+
+#. js-lingui-id: 20UrUc
+msgid "Upgrade to {0}"
+msgstr "升级到 {0}"
+
+#. js-lingui-id: AsSWrO
+msgid "Upgrade to {0} credits for ${1}/{2}."
+msgstr "以 ${1}/{2} 升级到 {0} 点额度。"
+
+#. js-lingui-id: ZpX3XL
+msgid "Upgrade to access audit logs"
+msgstr "升级以使用审计日志"
+
+#. js-lingui-id: cmXTVL
+msgid "Users with server-level access. Open a user to grant or revoke access; use the search below to find anyone."
+msgstr "拥有服务器级权限的用户。打开某个用户可授予或撤销权限；使用下方搜索可查找任何人。"
+
+#. js-lingui-id: sQDLAB
+msgid "We match on these fields. If a {0} already exists, we update it. Otherwise, we create a new one."
+msgstr "我们按这些字段匹配。如果 {0} 已存在，则更新它；否则新建一个。"
+
+#. js-lingui-id: Bjg59l
+msgid "You've hit your usage limit. \nUpgrade to {0} credits for ${1}/{2}."
+msgstr "你已达到使用上限。\n以 ${1}/{2} 升级到 {0} 点额度。"

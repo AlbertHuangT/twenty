@@ -8740,3 +8740,99 @@ msgstr "负责管理该公司客户的团队成员"
 #: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
 msgid "Your workspace has been updated with a new data model. Please refresh the page."
 msgstr "您的工作空间已更新为新的数据模型。请刷新页面。"
+
+#. js-lingui-id: Jrl0Z/
+msgid "Annual Revenue"
+msgstr "年收入"
+
+#. js-lingui-id: brmpUc
+msgid "Application ID"
+msgstr "应用 ID"
+
+#. js-lingui-id: wRpDAv
+msgid "Calendar Event"
+msgstr "日历事件"
+
+#. js-lingui-id: 9e+AU2
+msgid "Call Recording"
+msgstr "通话录音"
+
+#. js-lingui-id: buL171
+msgid "Call Recordings"
+msgstr "通话录音"
+
+#. js-lingui-id: D02dD9
+msgid "Campaign"
+msgstr "群发活动"
+
+#. js-lingui-id: oRJtCM
+msgid "Campaigns"
+msgstr "群发活动"
+
+#. js-lingui-id: OHSunA
+msgid "Delivery status"
+msgstr "投递状态"
+
+#. js-lingui-id: ylZVJN
+msgid "Ended At"
+msgstr "结束于"
+
+#. js-lingui-id: QhJOSq
+msgid "External Bot ID"
+msgstr "外部机器人 ID"
+
+#. js-lingui-id: Z6g/24
+msgid "External Recording ID"
+msgstr "外部录音 ID"
+
+#. js-lingui-id: I8kbtP
+msgid "From address"
+msgstr "发件地址"
+
+#. js-lingui-id: 2BBAbc
+msgid "List"
+msgstr "列表"
+
+#. js-lingui-id: SoFuhy
+msgid "List Member"
+msgstr "列表成员"
+
+#. js-lingui-id: ieMuGM
+msgid "List Members"
+msgstr "列表成员"
+
+#. js-lingui-id: h16FyT
+msgid "Lists"
+msgstr "列表"
+
+#. js-lingui-id: wlQNTg
+msgid "Members"
+msgstr "成员"
+
+#. js-lingui-id: yPrbsy
+msgid "Recipients"
+msgstr "收件人"
+
+#. js-lingui-id: IqHcIF
+msgid "Request Status"
+msgstr "请求状态"
+
+#. js-lingui-id: 3fV/9W
+msgid "Sent at"
+msgstr "发送于"
+
+#. js-lingui-id: 0zMm7e
+msgid "Started At"
+msgstr "开始于"
+
+#. js-lingui-id: dXoieq
+msgid "Summary"
+msgstr "摘要"
+
+#. js-lingui-id: DDziIo
+msgid "Transcript"
+msgstr "转写文本"
+
+#. js-lingui-id: MGcUHx
+msgid "Unsubscribe topic id"
+msgstr "退订主题 ID"

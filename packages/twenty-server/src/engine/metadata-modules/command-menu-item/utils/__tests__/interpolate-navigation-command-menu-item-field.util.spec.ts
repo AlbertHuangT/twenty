@@ -51,7 +51,7 @@ describe('interpolateNavigationCommandMenuItemField', () => {
       i18nInstance: mockI18nInstance,
     });
 
-    expect(result).toBe('Go to People');
+    expect(result).toBe('前往People');
   });
 
   it('should resolve shortLabel template for NAVIGATION items', () => {
@@ -147,7 +147,7 @@ describe('interpolateNavigationCommandMenuItemField', () => {
       i18nInstance: mockI18nInstance,
     });
 
-    expect(result).toBe('Go to Custom Objects');
+    expect(result).toBe('前往Custom Objects');
   });
 
   it('should resolve icon for custom object metadata', () => {
