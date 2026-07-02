@@ -5,6 +5,7 @@ import {
   IsDateString,
   IsDefined,
   IsEnum,
+  IsInt,
   IsNotEmpty,
   IsOptional,
   IsString,
@@ -861,7 +862,7 @@ export class ConfigVariables {
   })
   @CastToPositiveNumber()
   @ValidateIf((env) => env.IS_BILLING_ENABLED === true)
-  BILLING_FREE_WORKFLOW_CREDITS_FOR_TRIAL_PERIOD_WITH_CREDIT_CARD = 5_000_000;
+  BILLING_FREE_WORKFLOW_CREDITS_FOR_TRIAL_PERIOD_WITH_CREDIT_CARD = 1_000_000;
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.BILLING_CONFIG,
@@ -931,6 +932,50 @@ export class ConfigVariables {
   })
   @IsOptional()
   BILLING_USAGE_CAP_CLICKHOUSE_ENABLED = false;
+
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.BILLING_CONFIG,
+    description:
+      'Free credits granted for completing the import-contacts onboarding step (in microCredits)',
+    type: ConfigVariableType.NUMBER,
+  })
+  @CastToPositiveNumber()
+  @IsInt()
+  @IsOptional()
+  ONBOARDING_IMPORT_CONTACTS_CREDITS_REWARD = 1_000_000;
+
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.BILLING_CONFIG,
+    description:
+      'Maximum number of invitations that grant credits during the invite-team onboarding step',
+    type: ConfigVariableType.NUMBER,
+  })
+  @CastToPositiveNumber()
+  @IsInt()
+  @IsOptional()
+  ONBOARDING_INVITE_TEAM_MAX_INVITES = 10;
+
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.BILLING_CONFIG,
+    description:
+      'Free credits granted per user invited during the invite-team onboarding step who signs up (in microCredits)',
+    type: ConfigVariableType.NUMBER,
+  })
+  @CastToPositiveNumber()
+  @IsInt()
+  @IsOptional()
+  ONBOARDING_INVITE_TEAM_CREDITS_REWARD_PER_USER = 500_000;
+
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.BILLING_CONFIG,
+    description:
+      'Free credits granted per app installed during the install-apps onboarding step (in microCredits)',
+    type: ConfigVariableType.NUMBER,
+  })
+  @CastToPositiveNumber()
+  @IsInt()
+  @IsOptional()
+  ONBOARDING_INSTALL_APPS_CREDITS_REWARD_PER_APP = 500_000;
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.SERVER_CONFIG,
@@ -1220,6 +1265,20 @@ export class ConfigVariables {
   @CastToPositiveNumber()
   @IsOptional()
   NODE_PORT = 3000;
+
+  @ConfigVariablesMetadata({
+    group: ConfigVariablesGroup.SERVER_CONFIG,
+    description:
+      'Idle keep-alive timeout (ms) for the HTTP server. Should be higher ' +
+      'than the idle timeout of any reverse proxy / load balancer in front ' +
+      'of it (nginx, ALB, ... default 60s), so the proxy is the side that ' +
+      'closes idle connections.',
+    type: ConfigVariableType.NUMBER,
+    isEnvOnly: true,
+  })
+  @CastToPositiveNumber()
+  @IsOptional()
+  SERVER_KEEP_ALIVE_TIMEOUT_MS = 65000;
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.SERVER_CONFIG,

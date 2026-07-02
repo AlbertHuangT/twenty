@@ -52,6 +52,9 @@ import { ApplicationRegistrationVariableService } from 'src/engine/core-modules/
 import { UpdateApplicationRegistrationVariableInput } from 'src/engine/core-modules/application/application-registration-variable/dtos/update-application-registration-variable.input';
 import { ApplicationRegistrationEntity } from 'src/engine/core-modules/application/application-registration/application-registration.entity';
 import { ApplicationRegistrationService } from 'src/engine/core-modules/application/application-registration/application-registration.service';
+import { ApplicationRegistrationInstalledWorkspacesDTO } from 'src/engine/core-modules/application/application-registration/dtos/application-registration-installed-workspaces.dto';
+import { ApplicationRegistrationStatsDTO } from 'src/engine/core-modules/application/application-registration/dtos/application-registration-stats.dto';
+import { FindApplicationRegistrationInstalledWorkspacesInput } from 'src/engine/core-modules/application/application-registration/dtos/find-application-registration-installed-workspaces.input';
 import { UpdateApplicationRegistrationInput } from 'src/engine/core-modules/application/application-registration/dtos/update-application-registration.input';
 import {
   BACKFILL_APPLICATION_INSTALLATION_JOB_NAME,
@@ -65,6 +68,7 @@ import { FeatureFlagService } from 'src/engine/core-modules/feature-flag/service
 import { PreventNestToAutoLogGraphqlErrorsFilter } from 'src/engine/core-modules/graphql/filters/prevent-nest-to-auto-log-graphql-errors.filter';
 import { ResolverValidationPipe } from 'src/engine/core-modules/graphql/pipes/resolver-validation.pipe';
 import { UserInputError } from 'src/engine/core-modules/graphql/utils/graphql-errors.util';
+import { MarketplaceCatalogSyncCronJob } from 'src/engine/core-modules/application/application-marketplace/crons/marketplace-catalog-sync.cron.job';
 import { InjectMessageQueue } from 'src/engine/core-modules/message-queue/decorators/message-queue.decorator';
 import { MessageQueue } from 'src/engine/core-modules/message-queue/message-queue.constants';
 import { MessageQueueService } from 'src/engine/core-modules/message-queue/services/message-queue.service';
@@ -100,6 +104,8 @@ import { ModelsDevModelSuggestionDTO } from './dtos/models-dev-model-suggestion.
 import { ModelsDevProviderSuggestionDTO } from './dtos/models-dev-provider-suggestion.dto';
 import { QueueMetricsDataDTO } from './dtos/queue-metrics-data.dto';
 import { SetMaintenanceModeInput } from './dtos/set-maintenance-mode.input';
+
+const INSTALLED_WORKSPACES_PAGE_SIZE = 10;
 
 @UsePipes(ResolverValidationPipe)
 @AdminResolver()
@@ -139,8 +145,10 @@ export class AdminPanelResolver {
     private readonly upgradeStatusService: UpgradeStatusService,
     @InjectRepository(WorkspaceEntity)
     private readonly workspaceRepository: Repository<WorkspaceEntity>,
+    @InjectMessageQueue(MessageQueue.cronQueue)
+    private readonly cronQueueService: MessageQueueService,
     @InjectMessageQueue(MessageQueue.workspaceQueue)
-    private readonly messageQueueService: MessageQueueService,
+    private readonly workspaceQueueService: MessageQueueService,
   ) {}
 
   @UseGuards(AdminPanelOrImpersonateGuard)
@@ -480,6 +488,18 @@ export class AdminPanelResolver {
   }
 
   @UseGuards(AdminPanelGuard)
+  @Mutation(() => Boolean)
+  async syncMarketplaceCatalog(): Promise<boolean> {
+    await this.cronQueueService.add(
+      MarketplaceCatalogSyncCronJob.name,
+      {},
+      { id: 'marketplace-catalog-sync' }, // Avoids triggering multiple pending jobs
+    );
+
+    return true;
+  }
+
+  @UseGuards(AdminPanelGuard)
   @Mutation(() => ApplicationRegistrationEntity)
   async updateAdminApplicationRegistration(
     @Args('input') input: UpdateApplicationRegistrationInput,
@@ -503,7 +523,7 @@ export class AdminPanelResolver {
       );
     }
 
-    await this.messageQueueService.add<BackfillApplicationInstallationJobData>(
+    await this.workspaceQueueService.add<BackfillApplicationInstallationJobData>(
       BACKFILL_APPLICATION_INSTALLATION_JOB_NAME,
       { applicationRegistrationId },
       {
@@ -801,6 +821,32 @@ export class AdminPanelResolver {
   ): Promise<ApplicationRegistrationVariableDTO[]> {
     return this.applicationRegistrationVariableService.findVariablesWithObfuscatedValuesGlobal(
       applicationRegistrationId,
+    );
+  }
+
+  @UseGuards(AdminPanelGuard)
+  @Query(() => ApplicationRegistrationStatsDTO)
+  async findAdminApplicationRegistrationStats(
+    @Args('id') id: string,
+  ): Promise<ApplicationRegistrationStatsDTO> {
+    return this.applicationRegistrationService.getStatsGlobal(id);
+  }
+
+  @UseGuards(AdminPanelGuard)
+  @Query(() => ApplicationRegistrationInstalledWorkspacesDTO)
+  async findAdminApplicationRegistrationInstalledWorkspaces(
+    @Args('input')
+    {
+      id,
+      page,
+      searchTerm,
+    }: FindApplicationRegistrationInstalledWorkspacesInput,
+  ): Promise<ApplicationRegistrationInstalledWorkspacesDTO> {
+    return this.applicationRegistrationService.getInstalledWorkspacesGlobal(
+      id,
+      page ?? 1,
+      INSTALLED_WORKSPACES_PAGE_SIZE,
+      searchTerm,
     );
   }
 

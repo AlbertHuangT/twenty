@@ -666,6 +666,7 @@ type Object {
   duplicateCriteria: [[String!]!]
   fieldsList: [Field!]!
   indexMetadataList: [Index!]!
+  searchFieldMetadataList: [SearchField!]!
   fields(
     """Limit or page results."""
     paging: CursorPaging! = {first: 10}
@@ -1021,6 +1022,7 @@ enum OnboardingStatus {
   WORKSPACE_ACTIVATION
   PROFILE_CREATION
   SYNC_EMAIL
+  APPS_INSTALLATION
   INVITE_TEAM
   BOOK_ONBOARDING
   COMPLETED
@@ -1568,6 +1570,7 @@ type BillingSubscription {
   currentPeriodEnd: DateTime
   metadata: JSON!
   phases: [BillingSubscriptionSchedulePhase!]!
+  cancelAt: DateTime
 }
 
 enum SubscriptionStatus {
@@ -1798,6 +1801,17 @@ type ApplicationRegistrationVariableDTO {
   updatedAt: DateTime!
 }
 
+type VersionDistributionEntry {
+  version: String!
+  count: Int!
+}
+
+type ApplicationRegistrationStats {
+  activeInstalls: Int!
+  mostInstalledVersion: String
+  versionDistribution: [VersionDistributionEntry!]!
+}
+
 type BillingTrialPeriod {
   duration: Float!
   isCreditCardRequired: Boolean!
@@ -1976,17 +1990,6 @@ type UsageBreakdownItem {
   creditsUsed: Float!
 }
 
-type VersionDistributionEntry {
-  version: String!
-  count: Int!
-}
-
-type ApplicationRegistrationStats {
-  activeInstalls: Int!
-  mostInstalledVersion: String
-  versionDistribution: [VersionDistributionEntry!]!
-}
-
 type CreateApplicationRegistration {
   applicationRegistration: ApplicationRegistration!
   clientSecret: String!
@@ -2083,6 +2086,15 @@ type IndexObjectMetadataConnection {
 type ObjectRecordCount {
   objectNamePlural: String!
   totalCount: Int!
+}
+
+type SearchField {
+  id: UUID!
+  fieldMetadataId: UUID!
+  tsVectorFieldMetadataId: UUID!
+  position: Float!
+  createdAt: DateTime!
+  updatedAt: DateTime!
 }
 
 type ObjectConnection {
@@ -2779,6 +2791,7 @@ type DuplicatedDashboard {
 type SendEmailOutput {
   success: Boolean!
   error: String
+  messageThreadId: String
 }
 
 type Analytics {
@@ -3303,6 +3316,7 @@ type Mutation {
   assignRoleToApiKey(apiKeyId: UUID!, roleId: UUID!): Boolean!
   skipSyncEmailOnboardingStep: OnboardingStepSuccess!
   skipBookOnboardingStep: OnboardingStepSuccess!
+  triggerInstallAppsOnboardingStep(universalIdentifiers: [String!]!): OnboardingStepSuccess!
   updateOneApplicationVariable(key: String!, value: String!, applicationId: UUID!): Boolean!
   checkoutSession(recurringInterval: SubscriptionInterval!, plan: BillingPlanKey! = PRO, requirePaymentMethod: Boolean! = true, successUrlPath: String): BillingSession!
   createSubscriptionPaymentIntent(recurringInterval: SubscriptionInterval!, plan: BillingPlanKey! = PRO, requirePaymentMethod: Boolean! = true, successUrlPath: String, idempotencyKey: String!): BillingPaymentIntent!
@@ -4599,6 +4613,7 @@ input SendEmailInput {
   subject: String!
   body: String!
   inReplyTo: String
+  draftMessageId: String
   files: [SendEmailAttachmentInput!]
 }
 
